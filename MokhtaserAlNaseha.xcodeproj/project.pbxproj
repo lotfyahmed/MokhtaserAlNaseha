@@ -18,7 +18,7 @@
 		E9A2ADCB1DB8B5B800CA3A8B /* IndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A2ADC91DB8B5B800CA3A8B /* IndexCell.swift */; };
 		E9A2ADCC1DB8B5B800CA3A8B /* IndexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A2ADCA1DB8B5B800CA3A8B /* IndexCell.xib */; };
 		E9A9581A1DB85F21004C66AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A958191DB85F21004C66AD /* AppDelegate.swift */; };
-		E9A9581C1DB85F21004C66AD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9581B1DB85F21004C66AD /* FirstViewController.swift */; };
+		E9A9581C1DB85F21004C66AD /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9581B1DB85F21004C66AD /* BookViewController.swift */; };
 		E9A9581E1DB85F21004C66AD /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9581D1DB85F21004C66AD /* IndexViewController.swift */; };
 		E9A958211DB85F21004C66AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A9581F1DB85F21004C66AD /* Main.storyboard */; };
 		E9A958231DB85F21004C66AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A958221DB85F21004C66AD /* Assets.xcassets */; };
@@ -61,7 +61,7 @@
 		E9A2ADCA1DB8B5B800CA3A8B /* IndexCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IndexCell.xib; path = ../Module/Index/IndexCell.xib; sourceTree = "<group>"; };
 		E9A958161DB85F21004C66AD /* MokhtaserAlNaseha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MokhtaserAlNaseha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A958191DB85F21004C66AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9A9581B1DB85F21004C66AD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E9A9581B1DB85F21004C66AD /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		E9A9581D1DB85F21004C66AD /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 		E9A958201DB85F21004C66AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9A958221DB85F21004C66AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 		E9A2ADC51DB8B0F700CA3A8B /* Book */ = {
 			isa = PBXGroup;
 			children = (
-				E9A9581B1DB85F21004C66AD /* FirstViewController.swift */,
+				E9A9581B1DB85F21004C66AD /* BookViewController.swift */,
 			);
 			name = Book;
 			sourceTree = "<group>";
@@ -507,7 +507,7 @@
 				E9A9581E1DB85F21004C66AD /* IndexViewController.swift in Sources */,
 				E9A2ADCB1DB8B5B800CA3A8B /* IndexCell.swift in Sources */,
 				E9A9581A1DB85F21004C66AD /* AppDelegate.swift in Sources */,
-				E9A9581C1DB85F21004C66AD /* FirstViewController.swift in Sources */,
+				E9A9581C1DB85F21004C66AD /* BookViewController.swift in Sources */,
 				E96A572C1DB8BC0100BBD979 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

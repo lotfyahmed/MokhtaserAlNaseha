@@ -27,7 +27,7 @@ class IndexViewController: UICollectionViewController {
         do {
             if let path = NSBundle.mainBundle().pathForResource("IndexInfo", ofType: "txt"){
                 let data = try String(contentsOfFile:path)
-                indexTitles = data.componentsSeparatedByString("\n\r")
+                indexTitles = data.componentsSeparatedByString("\r\n")
                 print(indexTitles)
             }
         } catch let err as NSError {
@@ -58,8 +58,7 @@ class IndexViewController: UICollectionViewController {
     }
     
     // TODO: Refactor this part using Wireframe and presenter
-    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize
-    {
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize{
         let length = (UIScreen.mainScreen().bounds.width - 20)/3
         return CGSizeMake(length,length);
     }
@@ -70,6 +69,15 @@ class IndexViewController: UICollectionViewController {
     func indexButtonAction(sender:UIButton){
         let row = sender.tag
         print(indexNumber[row])
+        guard let viewControllers = self.tabBarController?.viewControllers,
+        bookNavigationController = viewControllers[0] as? UINavigationController,
+        bookViewController = bookNavigationController.viewControllers[0] as?  BookViewController
+        else{
+            return
+        }
+        
+        bookViewController.selectPageNumber(indexNumber[row])
+        self.tabBarController?.selectedIndex = 0
     }
     
 }
