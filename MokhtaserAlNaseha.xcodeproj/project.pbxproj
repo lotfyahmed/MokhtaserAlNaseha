@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134DB4BB92141EB2B2585D49 /* Pods_MokhtaserAlNaseha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D005F331354B0E1AB970A17F /* Pods_MokhtaserAlNaseha.framework */; };
+		26922E5CA335A5B6151EB5C4 /* Pods_MokhtaserAlNasehaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1714DA5916F539CD8ED32FB /* Pods_MokhtaserAlNasehaUITests.framework */; };
+		379A5EFD19F603064BE42633 /* Pods_MokhtaserAlNasehaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0B86F44EBA2E7539AA4A6A /* Pods_MokhtaserAlNasehaTests.framework */; };
+		E9A6AE6F1DB868850098DB47 /* mokhtaser.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E9A6AE6E1DB868850098DB47 /* mokhtaser.pdf */; };
 		E9A9581A1DB85F21004C66AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A958191DB85F21004C66AD /* AppDelegate.swift */; };
 		E9A9581C1DB85F21004C66AD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9581B1DB85F21004C66AD /* FirstViewController.swift */; };
 		E9A9581E1DB85F21004C66AD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9581D1DB85F21004C66AD /* SecondViewController.swift */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AB512B4FE23978C6B85B752 /* Pods-MokhtaserAlNasehaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MokhtaserAlNasehaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MokhtaserAlNasehaTests/Pods-MokhtaserAlNasehaTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D385D13E77FDF6BEB11F050 /* Pods-MokhtaserAlNaseha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MokhtaserAlNaseha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MokhtaserAlNaseha/Pods-MokhtaserAlNaseha.debug.xcconfig"; sourceTree = "<group>"; };
+		511398C7D62A4AE2A4C8EB7A /* Pods-MokhtaserAlNasehaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MokhtaserAlNasehaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MokhtaserAlNasehaUITests/Pods-MokhtaserAlNasehaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		672B2AC8A8FEB85F1FDAB798 /* Pods-MokhtaserAlNasehaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MokhtaserAlNasehaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MokhtaserAlNasehaTests/Pods-MokhtaserAlNasehaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0B86F44EBA2E7539AA4A6A /* Pods_MokhtaserAlNasehaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNasehaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC6A97E0C69F4CBA1871946 /* Pods-MokhtaserAlNaseha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MokhtaserAlNaseha.release.xcconfig"; path = "Pods/Target Support Files/Pods-MokhtaserAlNaseha/Pods-MokhtaserAlNaseha.release.xcconfig"; sourceTree = "<group>"; };
+		D005F331354B0E1AB970A17F /* Pods_MokhtaserAlNaseha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNaseha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A6AE6E1DB868850098DB47 /* mokhtaser.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mokhtaser.pdf; sourceTree = "<group>"; };
 		E9A958161DB85F21004C66AD /* MokhtaserAlNaseha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MokhtaserAlNaseha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A958191DB85F21004C66AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9A9581B1DB85F21004C66AD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		E9A958371DB85F22004C66AD /* MokhtaserAlNasehaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MokhtaserAlNasehaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A9583B1DB85F22004C66AD /* MokhtaserAlNasehaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokhtaserAlNasehaUITests.swift; sourceTree = "<group>"; };
 		E9A9583D1DB85F22004C66AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE58AB0BA23902D28F93B69 /* Pods-MokhtaserAlNasehaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MokhtaserAlNasehaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MokhtaserAlNasehaUITests/Pods-MokhtaserAlNasehaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1714DA5916F539CD8ED32FB /* Pods_MokhtaserAlNasehaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNasehaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				134DB4BB92141EB2B2585D49 /* Pods_MokhtaserAlNaseha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379A5EFD19F603064BE42633 /* Pods_MokhtaserAlNasehaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26922E5CA335A5B6151EB5C4 /* Pods_MokhtaserAlNasehaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C36972C2F8603820365475C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D005F331354B0E1AB970A17F /* Pods_MokhtaserAlNaseha.framework */,
+				8A0B86F44EBA2E7539AA4A6A /* Pods_MokhtaserAlNasehaTests.framework */,
+				F1714DA5916F539CD8ED32FB /* Pods_MokhtaserAlNasehaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8795281B6455FF80CEA0139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D385D13E77FDF6BEB11F050 /* Pods-MokhtaserAlNaseha.debug.xcconfig */,
+				BDC6A97E0C69F4CBA1871946 /* Pods-MokhtaserAlNaseha.release.xcconfig */,
+				672B2AC8A8FEB85F1FDAB798 /* Pods-MokhtaserAlNasehaTests.debug.xcconfig */,
+				2AB512B4FE23978C6B85B752 /* Pods-MokhtaserAlNasehaTests.release.xcconfig */,
+				511398C7D62A4AE2A4C8EB7A /* Pods-MokhtaserAlNasehaUITests.debug.xcconfig */,
+				EAE58AB0BA23902D28F93B69 /* Pods-MokhtaserAlNasehaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E9A9580D1DB85F20004C66AD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				E9A9582F1DB85F22004C66AD /* MokhtaserAlNasehaTests */,
 				E9A9583A1DB85F22004C66AD /* MokhtaserAlNasehaUITests */,
 				E9A958171DB85F21004C66AD /* Products */,
+				C8795281B6455FF80CEA0139 /* Pods */,
+				C36972C2F8603820365475C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +141,7 @@
 		E9A958181DB85F21004C66AD /* MokhtaserAlNaseha */ = {
 			isa = PBXGroup;
 			children = (
+				E9A6AE6E1DB868850098DB47 /* mokhtaser.pdf */,
 				E9A958191DB85F21004C66AD /* AppDelegate.swift */,
 				E9A9581B1DB85F21004C66AD /* FirstViewController.swift */,
 				E9A9581D1DB85F21004C66AD /* SecondViewController.swift */,
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9A958401DB85F22004C66AD /* Build configuration list for PBXNativeTarget "MokhtaserAlNaseha" */;
 			buildPhases = (
+				1E512A95BE66C012B3B76A70 /* [CP] Check Pods Manifest.lock */,
 				E9A958121DB85F20004C66AD /* Sources */,
 				E9A958131DB85F20004C66AD /* Frameworks */,
 				E9A958141DB85F20004C66AD /* Resources */,
+				B26F5D3707FCF4D8AF313CD0 /* [CP] Embed Pods Frameworks */,
+				2DF25852CAE4F56C227EE25A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9A958431DB85F22004C66AD /* Build configuration list for PBXNativeTarget "MokhtaserAlNasehaTests" */;
 			buildPhases = (
+				845A63014836DDFEFFACBE8A /* [CP] Check Pods Manifest.lock */,
 				E9A958281DB85F22004C66AD /* Sources */,
 				E9A958291DB85F22004C66AD /* Frameworks */,
 				E9A9582A1DB85F22004C66AD /* Resources */,
+				4157AB0F268540B9470AAC1C /* [CP] Embed Pods Frameworks */,
+				F6AF8B635C5F86E586C50A92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9A958461DB85F22004C66AD /* Build configuration list for PBXNativeTarget "MokhtaserAlNasehaUITests" */;
 			buildPhases = (
+				D058C18CDCB0BE782091E06E /* [CP] Check Pods Manifest.lock */,
 				E9A958331DB85F22004C66AD /* Sources */,
 				E9A958341DB85F22004C66AD /* Frameworks */,
 				E9A958351DB85F22004C66AD /* Resources */,
+				4E8614824C5F7C990EA3A884 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +285,7 @@
 			files = (
 				E9A958261DB85F21004C66AD /* LaunchScreen.storyboard in Resources */,
 				E9A958231DB85F21004C66AD /* Assets.xcassets in Resources */,
+				E9A6AE6F1DB868850098DB47 /* mokhtaser.pdf in Resources */,
 				E9A958211DB85F21004C66AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +305,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E512A95BE66C012B3B76A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DF25852CAE4F56C227EE25A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MokhtaserAlNaseha/Pods-MokhtaserAlNaseha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4157AB0F268540B9470AAC1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MokhtaserAlNasehaTests/Pods-MokhtaserAlNasehaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8614824C5F7C990EA3A884 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MokhtaserAlNasehaUITests/Pods-MokhtaserAlNasehaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845A63014836DDFEFFACBE8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B26F5D3707FCF4D8AF313CD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MokhtaserAlNaseha/Pods-MokhtaserAlNaseha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D058C18CDCB0BE782091E06E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6AF8B635C5F86E586C50A92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MokhtaserAlNasehaTests/Pods-MokhtaserAlNasehaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9A958121DB85F20004C66AD /* Sources */ = {
@@ -403,6 +578,7 @@
 		};
 		E9A958411DB85F22004C66AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D385D13E77FDF6BEB11F050 /* Pods-MokhtaserAlNaseha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MokhtaserAlNaseha/Info.plist;
@@ -415,6 +591,7 @@
 		};
 		E9A958421DB85F22004C66AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC6A97E0C69F4CBA1871946 /* Pods-MokhtaserAlNaseha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MokhtaserAlNaseha/Info.plist;
@@ -427,6 +604,7 @@
 		};
 		E9A958441DB85F22004C66AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672B2AC8A8FEB85F1FDAB798 /* Pods-MokhtaserAlNasehaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MokhtaserAlNasehaTests/Info.plist;
@@ -439,6 +617,7 @@
 		};
 		E9A958451DB85F22004C66AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB512B4FE23978C6B85B752 /* Pods-MokhtaserAlNasehaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MokhtaserAlNasehaTests/Info.plist;
@@ -451,6 +630,7 @@
 		};
 		E9A958471DB85F22004C66AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511398C7D62A4AE2A4C8EB7A /* Pods-MokhtaserAlNasehaUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MokhtaserAlNasehaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -462,6 +642,7 @@
 		};
 		E9A958481DB85F22004C66AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE58AB0BA23902D28F93B69 /* Pods-MokhtaserAlNasehaUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MokhtaserAlNasehaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -490,6 +671,7 @@
 				E9A958421DB85F22004C66AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9A958431DB85F22004C66AD /* Build configuration list for PBXNativeTarget "MokhtaserAlNasehaTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +680,7 @@
 				E9A958451DB85F22004C66AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9A958461DB85F22004C66AD /* Build configuration list for PBXNativeTarget "MokhtaserAlNasehaUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +689,7 @@
 				E9A958481DB85F22004C66AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
