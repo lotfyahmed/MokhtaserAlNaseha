@@ -18,6 +18,7 @@ class IndexViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "الفهرس"
         // Register cell classes
         self.collectionView!.registerNib(UINib(nibName: "IndexCell", bundle: nil), forCellWithReuseIdentifier:reuseIdentifier)
         loadIndexDictionary()
@@ -64,20 +65,28 @@ class IndexViewController: UICollectionViewController {
     }
     
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath){
+        
     }
     
+    var indexNo = 0
     func indexButtonAction(sender:UIButton){
         let row = sender.tag
         print(indexNumber[row])
-        guard let viewControllers = self.tabBarController?.viewControllers,
-        bookNavigationController = viewControllers[0] as? UINavigationController,
-        bookViewController = bookNavigationController.viewControllers[0] as?  BookViewController
-        else{
-            return
-        }
-        
+        indexNo = indexNumber[row]
+        let bookViewController = bookViewControllerFromStoryboard()        
         bookViewController.selectPageNumber(indexNumber[row])
-        self.tabBarController?.selectedIndex = 0
+        self.navigationController?.pushViewController(bookViewController, animated: true)
+    }
+    
+    func bookViewControllerFromStoryboard() -> BookViewController {
+        let storyboard = mainStoryboard()
+        let bookViewController: BookViewController = storyboard.instantiateViewControllerWithIdentifier("BookViewController") as! BookViewController
+        return bookViewController
+    }
+    
+    func mainStoryboard() -> UIStoryboard {
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        return storyboard
     }
     
 }

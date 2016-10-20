@@ -16,6 +16,7 @@ class BookViewController: PDFKBasicPDFViewer {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "كتاب مختصر النصيحة"
         guard let pdfPath = NSBundle.mainBundle().pathForResource("mokhtaser", ofType:"pdf") else{
             return
         }
@@ -42,6 +43,5 @@ class BookViewController: PDFKBasicPDFViewer {
     func selectPageNumber(no:Int){
         selectedPage = no
     }
-    
 }
 

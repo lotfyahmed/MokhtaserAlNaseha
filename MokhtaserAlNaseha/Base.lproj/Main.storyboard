@@ -8,7 +8,7 @@
         <!--Book View Controller-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="BookViewController" customModule="MokhtaserAlNaseha" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BookViewController" id="9pv-A4-QxB" customClass="BookViewController" customModule="MokhtaserAlNaseha" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1488" y="-434"/>
+            <point key="canvasLocation" x="2216" y="0.0"/>
         </scene>
         <!--IndexViewController-->
         <scene sceneID="0bA-Eg-UoS">
@@ -61,7 +61,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="WIH-gl-gLs" customClass="IndexCell" customModule="MokhtaserAlNaseha" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <rect key="frame" x="0.0" y="64" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -75,11 +75,11 @@
                             <outlet property="delegate" destination="ZZ1-qM-R8M" id="Aob-h0-6iW"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Item" id="jb3-Qy-RZW"/>
+                    <navigationItem key="navigationItem" id="2ux-dx-St8"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LLa-tO-Cic" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1596" y="215"/>
+            <point key="canvasLocation" x="1552" y="0.0"/>
         </scene>
         <!--Settings View Contoller-->
         <scene sceneID="wg7-f3-ORb">
@@ -135,37 +135,35 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="2ih-pB-hnm" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="ZZ1-qM-R8M" kind="relationship" relationship="viewControllers" id="KOs-gR-NnO"/>
+                        <segue destination="OYw-4E-WuJ" kind="relationship" relationship="viewControllers" id="KOs-gR-NnO"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="zby-LX-vl3">
+        <!--Item-->
+        <scene sceneID="JLz-EO-fLM">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2ih-pB-hnm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="bookicon" id="acW-dT-cKf"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OYw-4E-WuJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="jb3-Qy-RZW"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Tpm-FG-ms3">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HnA-sL-oPQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="Prb-CU-VMi"/>
+                        <segue destination="ZZ1-qM-R8M" kind="relationship" relationship="rootViewController" id="8SO-gS-nZg"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PMc-Fd-Sin" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sGL-ZT-LJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="676" y="-434"/>
+            <point key="canvasLocation" x="740" y="0.0"/>
         </scene>
     </scenes>
     <resources>
-        <image name="bookicon" width="50" height="50"/>
         <image name="indexicon" width="50" height="50"/>
     </resources>
 </document>
