@@ -2,11 +2,10 @@
 # platform :ios, '9.0'
 
 target 'MokhtaserAlNaseha' do
-  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
   pod 'M13PDFKit', '1.0.2'
-  # Pods for MokhtaserAlNaseha
+  pod "SwiftCSV"
 
   target 'MokhtaserAlNasehaTests' do
     inherit! :search_paths

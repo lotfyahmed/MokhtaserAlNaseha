@@ -8,28 +8,9 @@
 
 import Foundation
 
-struct Index {
-    static let IndexNumberes:[Int] = [9, 16, 21, 21, 21,
-                                      21, 21, 22, 22, 22,
-                                      23, 23, 23, 23, 23,
-                                      23, 24, 24, 24, 24,
-                                      25, 25, 25, 26, 26,
-                                      26, 26, 27, 28, 28,
-                                      28, 29, 29, 30, 31,
-                                      32, 32, 32, 
-                                      
-                                      ]
-    static let ImagesNames:[String] = [
-        "azkar", "azkar", "azkar", "azkar", "azkar", "azkar",
-        "azkar", "azkar", "azkar", "azkar", "azkar", "azkar",
-          "azkar", "azkar", "azkar", "azkar", "azkar", "azkar",
-           "azkar", "azkar", "azkar", "azkar", "azkar", "azkar",
-            "azkar", "azkar", "azkar", "azkar", "azkar", "azkar",
-             "azkar", "azkar", "azkar", "azkar", "azkar", "azkar",
-             "azkar", "azkar", "azkar", "azkar", "azkar", "azkar",
-             "azkar", "azkar", "azkar", "azkar", "azkar", "azkar",
-             "azkar", "azkar", "azkar", "azkar", "azkar", "azkar",
-             "azkar", "azkar", "azkar", "azkar", "azkar", "azkar",
-             "azkar", "azkar", "azkar", "azkar", "azkar", "azkar"
-        ]
+struct IndexConstant {
+    static let CSVFile = "General Index"
+    static let Index = "Index"
+    static let PageNumber = "Page Number"
+    static let UnusedPages = 2
 }

@@ -12,38 +12,24 @@ class IndexViewController: UICollectionViewController {
     
     private let reuseIdentifier = "IndexCell"
     private let addImageIcon = "addImage"
-    private var indexTitles:[String] = []
-    private var indexNumber:[Int] =   Index.IndexNumberes
-    private var imagesNames:[String] = Index.ImagesNames
+    private var fileManager:FileManager = FileManager()
+    private var indexEntity:IndexEntity!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "الفهرس"
         // Register cell classes
         self.collectionView!.registerNib(UINib(nibName: "IndexCell", bundle: nil), forCellWithReuseIdentifier:reuseIdentifier)
-        loadIndexDictionary()
+        self.indexEntity = fileManager.loadIndex()
     }
-    
-    func loadIndexDictionary(){
-        do {
-            if let path = NSBundle.mainBundle().pathForResource("IndexInfo", ofType: "txt"){
-                let data = try String(contentsOfFile:path)
-                indexTitles = data.componentsSeparatedByString("\r\n")
-                print(indexTitles)
-            }
-        } catch let err as NSError {
-            // do something with Error
-            print(err)
-        }
-    }
+
     // MARK: UICollectionViewDataSource
-    
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
     }
     
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return indexTitles.count
+        return indexEntity.titles.count
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -51,8 +37,8 @@ class IndexViewController: UICollectionViewController {
         cell.button.tag = indexPath.row
         
         // Configure the cell
-        cell.icon.image = UIImage(named:imagesNames[indexPath.row])
-        cell.textLabel?.text = indexTitles[indexPath.row]
+        cell.icon.image = UIImage(named:indexEntity.imageNames[indexPath.row])
+        cell.textLabel?.text = indexEntity.titles[indexPath.row]
         cell.button?.addTarget(self, action: #selector(IndexViewController.indexButtonAction(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         
         return cell
@@ -71,10 +57,10 @@ class IndexViewController: UICollectionViewController {
     var indexNo = 0
     func indexButtonAction(sender:UIButton){
         let row = sender.tag
-        print(indexNumber[row])
-        indexNo = indexNumber[row]
+        print(indexEntity.pageNumbers[row])
+        indexNo = indexEntity.pageNumbers[row]
         let bookViewController = bookViewControllerFromStoryboard()        
-        bookViewController.selectPageNumber(indexNumber[row])
+        bookViewController.selectPageNumber(indexEntity.pageNumbers[row])
         self.navigationController?.pushViewController(bookViewController, animated: true)
     }
     

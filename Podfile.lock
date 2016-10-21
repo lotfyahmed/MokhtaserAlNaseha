@@ -1,15 +1,18 @@
 PODS:
   - M13PDFKit (1.0.2):
     - TTOpenInAppActivity
+  - SwiftCSV (0.3.2)
   - TTOpenInAppActivity (1.0)
 
 DEPENDENCIES:
   - M13PDFKit (= 1.0.2)
+  - SwiftCSV
 
 SPEC CHECKSUMS:
   M13PDFKit: bc121a55ccb8ddfcf3982f1a5a8592b9f492cd73
+  SwiftCSV: 8b64b738fc54567d229acb17ce6d584e0dd27560
   TTOpenInAppActivity: c2218fe419d03ddd4ffb1f07d52d66e0d213d0d4
 
-PODFILE CHECKSUM: fb8f4a29f6a19c081706211d54e3ce18f2854ae5
+PODFILE CHECKSUM: 6c26d1b54b0a410e5d64f0dacf7c229be5bd85af
 
 COCOAPODS: 1.0.1

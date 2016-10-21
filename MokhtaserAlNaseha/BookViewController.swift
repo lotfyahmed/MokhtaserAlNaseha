@@ -17,7 +17,7 @@ class BookViewController: PDFKBasicPDFViewer {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "كتاب مختصر النصيحة"
-        guard let pdfPath = NSBundle.mainBundle().pathForResource("mokhtaser", ofType:"pdf") else{
+        guard let pdfPath = NSBundle.mainBundle().pathForResource("Nasyha", ofType:"pdf") else{
             return
         }
         previewBook(pdfPath)
@@ -25,19 +25,22 @@ class BookViewController: PDFKBasicPDFViewer {
     
     override func viewWillAppear(animated: Bool) {
         super.viewDidLoad()
+        //        self.enableSharing = false
+        //        self.enablePrinting = false
+        //        self.enableOpening = false
+        //        self.enableBookmarks = false
+        //        self.enablePreview = false
+        //        self.enableThumbnailSlider = false
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidLoad()
         self.displayPage(UInt(selectedPage))
+        self.enableThumbnailSlider = false
     }
     func previewBook(path:String){
         self.pdfDocument = PDFKDocument(contentsOfFile: path, password: nil)
         self.loadDocument(pdfDocument)
-        self.enableSharing = false
-        self.enablePrinting = false
-        self.enableOpening = false
-        self.enableBookmarks = false
     }
     
     func selectPageNumber(no:Int){

@@ -10,9 +10,10 @@
 		134DB4BB92141EB2B2585D49 /* Pods_MokhtaserAlNaseha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D005F331354B0E1AB970A17F /* Pods_MokhtaserAlNaseha.framework */; };
 		26922E5CA335A5B6151EB5C4 /* Pods_MokhtaserAlNasehaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1714DA5916F539CD8ED32FB /* Pods_MokhtaserAlNasehaUITests.framework */; };
 		379A5EFD19F603064BE42633 /* Pods_MokhtaserAlNasehaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0B86F44EBA2E7539AA4A6A /* Pods_MokhtaserAlNasehaTests.framework */; };
+		E92E0E3E1DB9FA7E005E1034 /* Nasyha.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E92E0E3D1DB9FA7E005E1034 /* Nasyha.pdf */; };
+		E92E0E401DBA0D7C005E1034 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E0E3F1DBA0D7C005E1034 /* FileManager.swift */; };
+		E92E0E421DBA0E45005E1034 /* General Index.csv in Resources */ = {isa = PBXBuildFile; fileRef = E92E0E411DBA0E45005E1034 /* General Index.csv */; };
 		E96A572C1DB8BC0100BBD979 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96A572B1DB8BC0100BBD979 /* Constants.swift */; };
-		E96A572E1DB8C3E500BBD979 /* IndexInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96A572D1DB8C3E500BBD979 /* IndexInfo.txt */; };
-		E9A2ADBF1DB8B03500CA3A8B /* IndexInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9A2ADBD1DB8B03500CA3A8B /* IndexInfo.plist */; };
 		E9A2ADC01DB8B03500CA3A8B /* mokhtaser.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E9A2ADBE1DB8B03500CA3A8B /* mokhtaser.pdf */; };
 		E9A2ADC81DB8B1AA00CA3A8B /* SettingsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A2ADC71DB8B1AA00CA3A8B /* SettingsViewContoller.swift */; };
 		E9A2ADCB1DB8B5B800CA3A8B /* IndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A2ADC91DB8B5B800CA3A8B /* IndexCell.swift */; };
@@ -25,6 +26,7 @@
 		E9A958261DB85F21004C66AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A958241DB85F21004C66AD /* LaunchScreen.storyboard */; };
 		E9A958311DB85F22004C66AD /* MokhtaserAlNasehaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A958301DB85F22004C66AD /* MokhtaserAlNasehaTests.swift */; };
 		E9A9583C1DB85F22004C66AD /* MokhtaserAlNasehaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9583B1DB85F22004C66AD /* MokhtaserAlNasehaUITests.swift */; };
+		E9F0056E1DBA121A003FF978 /* IndexEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0056D1DBA121A003FF978 /* IndexEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +54,10 @@
 		8A0B86F44EBA2E7539AA4A6A /* Pods_MokhtaserAlNasehaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNasehaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC6A97E0C69F4CBA1871946 /* Pods-MokhtaserAlNaseha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MokhtaserAlNaseha.release.xcconfig"; path = "Pods/Target Support Files/Pods-MokhtaserAlNaseha/Pods-MokhtaserAlNaseha.release.xcconfig"; sourceTree = "<group>"; };
 		D005F331354B0E1AB970A17F /* Pods_MokhtaserAlNaseha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNaseha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92E0E3D1DB9FA7E005E1034 /* Nasyha.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Nasyha.pdf; sourceTree = "<group>"; };
+		E92E0E3F1DBA0D7C005E1034 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileManager.swift; path = Common/FileManager.swift; sourceTree = "<group>"; };
+		E92E0E411DBA0E45005E1034 /* General Index.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "General Index.csv"; sourceTree = "<group>"; };
 		E96A572B1DB8BC0100BBD979 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Common/Constants.swift; sourceTree = "<group>"; };
-		E96A572D1DB8C3E500BBD979 /* IndexInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IndexInfo.txt; sourceTree = "<group>"; };
-		E9A2ADBD1DB8B03500CA3A8B /* IndexInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IndexInfo.plist; sourceTree = "<group>"; };
 		E9A2ADBE1DB8B03500CA3A8B /* mokhtaser.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mokhtaser.pdf; sourceTree = "<group>"; };
 		E9A2ADC71DB8B1AA00CA3A8B /* SettingsViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewContoller.swift; path = Module/Settings/SettingsViewContoller.swift; sourceTree = "<group>"; };
 		E9A2ADC91DB8B5B800CA3A8B /* IndexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndexCell.swift; path = Module/Index/IndexCell.swift; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 		E9A958371DB85F22004C66AD /* MokhtaserAlNasehaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MokhtaserAlNasehaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A9583B1DB85F22004C66AD /* MokhtaserAlNasehaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokhtaserAlNasehaUITests.swift; sourceTree = "<group>"; };
 		E9A9583D1DB85F22004C66AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F0056D1DBA121A003FF978 /* IndexEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndexEntity.swift; path = Module/Index/IndexEntity.swift; sourceTree = "<group>"; };
 		EAE58AB0BA23902D28F93B69 /* Pods-MokhtaserAlNasehaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MokhtaserAlNasehaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MokhtaserAlNasehaUITests/Pods-MokhtaserAlNasehaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F1714DA5916F539CD8ED32FB /* Pods_MokhtaserAlNasehaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNasehaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				E96A572B1DB8BC0100BBD979 /* Constants.swift */,
+				E92E0E3F1DBA0D7C005E1034 /* FileManager.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -142,8 +147,8 @@
 				E9A9581F1DB85F21004C66AD /* Main.storyboard */,
 				E9A2ADCA1DB8B5B800CA3A8B /* IndexCell.xib */,
 				E9A958241DB85F21004C66AD /* LaunchScreen.storyboard */,
-				E96A572D1DB8C3E500BBD979 /* IndexInfo.txt */,
-				E9A2ADBD1DB8B03500CA3A8B /* IndexInfo.plist */,
+				E92E0E411DBA0E45005E1034 /* General Index.csv */,
+				E92E0E3D1DB9FA7E005E1034 /* Nasyha.pdf */,
 				E9A2ADBE1DB8B03500CA3A8B /* mokhtaser.pdf */,
 			);
 			path = Sources;
@@ -162,6 +167,7 @@
 		E9A2ADC41DB8B0F000CA3A8B /* Index */ = {
 			isa = PBXGroup;
 			children = (
+				E9F0056D1DBA121A003FF978 /* IndexEntity.swift */,
 				E9A9581D1DB85F21004C66AD /* IndexViewController.swift */,
 				E9A2ADC91DB8B5B800CA3A8B /* IndexCell.swift */,
 			);
@@ -351,10 +357,10 @@
 			files = (
 				E9A2ADCC1DB8B5B800CA3A8B /* IndexCell.xib in Resources */,
 				E9A958261DB85F21004C66AD /* LaunchScreen.storyboard in Resources */,
-				E96A572E1DB8C3E500BBD979 /* IndexInfo.txt in Resources */,
+				E92E0E421DBA0E45005E1034 /* General Index.csv in Resources */,
+				E92E0E3E1DB9FA7E005E1034 /* Nasyha.pdf in Resources */,
 				E9A958231DB85F21004C66AD /* Assets.xcassets in Resources */,
 				E9A958211DB85F21004C66AD /* Main.storyboard in Resources */,
-				E9A2ADBF1DB8B03500CA3A8B /* IndexInfo.plist in Resources */,
 				E9A2ADC01DB8B03500CA3A8B /* mokhtaser.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,8 +510,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9A2ADC81DB8B1AA00CA3A8B /* SettingsViewContoller.swift in Sources */,
+				E9F0056E1DBA121A003FF978 /* IndexEntity.swift in Sources */,
 				E9A9581E1DB85F21004C66AD /* IndexViewController.swift in Sources */,
 				E9A2ADCB1DB8B5B800CA3A8B /* IndexCell.swift in Sources */,
+				E92E0E401DBA0D7C005E1034 /* FileManager.swift in Sources */,
 				E9A9581A1DB85F21004C66AD /* AppDelegate.swift in Sources */,
 				E9A9581C1DB85F21004C66AD /* BookViewController.swift in Sources */,
 				E96A572C1DB8BC0100BBD979 /* Constants.swift in Sources */,
