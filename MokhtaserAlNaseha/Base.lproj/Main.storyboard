@@ -24,8 +24,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loaded by BookViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="203" y="329" width="195" height="17"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by BookViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
+                                <rect key="frame" x="201" y="329" width="199" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -118,11 +118,11 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="indexicon" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="" image="Settings-50" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="456" y="807.75"/>
+            <point key="canvasLocation" x="-164" y="835"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -135,19 +135,20 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="OYw-4E-WuJ" kind="relationship" relationship="viewControllers" id="KOs-gR-NnO"/>
+                        <segue destination="OYw-4E-WuJ" kind="relationship" relationship="viewControllers" id="6Qs-Bl-vFB"/>
+                        <segue destination="bqq-oF-wHE" kind="relationship" relationship="viewControllers" id="Hov-it-DQP"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="Tpi-mU-ASL"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-204" y="-48"/>
         </scene>
-        <!--Item-->
+        <!--الاعدادات-->
         <scene sceneID="JLz-EO-fLM">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OYw-4E-WuJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="jb3-Qy-RZW"/>
+                <navigationController title="الاعدادات" automaticallyAdjustsScrollViewInsets="NO" id="OYw-4E-WuJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="اعدادات" image="List-50" id="jb3-Qy-RZW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HnA-sL-oPQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -160,10 +161,41 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sGL-ZT-LJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="740" y="0.0"/>
+            <point key="canvasLocation" x="726" y="-18"/>
+        </scene>
+        <!--صوتى مسموع-->
+        <scene sceneID="PGr-7c-W34">
+            <objects>
+                <tableViewController title="صوتى مسموع" id="bqq-oF-wHE" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bgt-hX-A0h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="mi7-uC-TYL">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mi7-uC-TYL" id="ah8-g0-jNg">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="bqq-oF-wHE" id="iUS-MH-W8g"/>
+                            <outlet property="delegate" destination="bqq-oF-wHE" id="QYX-zi-dOh"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="صوتى" image="Audio Book-50" id="55U-dV-c4E"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E7r-79-YMe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="715"/>
         </scene>
     </scenes>
     <resources>
-        <image name="indexicon" width="50" height="50"/>
+        <image name="Audio Book-50" width="50" height="50"/>
+        <image name="List-50" width="50" height="50"/>
+        <image name="Settings-50" width="50" height="50"/>
     </resources>
 </document>
