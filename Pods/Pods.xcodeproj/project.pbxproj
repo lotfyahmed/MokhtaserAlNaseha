@@ -7,99 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		020D42D092326A53ED6A5BEF8C680E7F /* PageList.psd in Resources */ = {isa = PBXBuildFile; fileRef = 47167FBA0907D4C556FA529990DDAC26 /* PageList.psd */; };
-		042C4F02931292C07CDB5E17A7C2C913 /* Bookmark@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 42FAE1BB1B8DE60C68C996ADD2A90473 /* Bookmark@3x.psd */; };
-		051AE988948CDBBF222B5AC3DB79C3AA /* PDFKPageScrubber.m in Sources */ = {isa = PBXBuildFile; fileRef = F9701AEB11916BACDFB1441F60C775B7 /* PDFKPageScrubber.m */; };
-		08F281E63B9B7AC863EA39A8F5722F5B /* PDFKThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD10BD5BFE6A5E5D9CE3982F2E5514E /* PDFKThumbView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AC9980C7A62DECA2620F550D42C212F /* PDFKDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B76338DA76415564FB14EF356FECF97 /* PDFKDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AE225407B1368A16A4C09C5BFF25A39 /* TTOpenInAppActivity7.png in Resources */ = {isa = PBXBuildFile; fileRef = 858879CD4A4FC1A79E69D3939905F748 /* TTOpenInAppActivity7.png */; };
+		020D42D092326A53ED6A5BEF8C680E7F /* PageList.psd in Resources */ = {isa = PBXBuildFile; fileRef = 88057D36818F9555CE7234435ADA29E7 /* PageList.psd */; };
+		042C4F02931292C07CDB5E17A7C2C913 /* Bookmark@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = B9F55058B01B675BCD5652154955DA63 /* Bookmark@3x.psd */; };
+		051AE988948CDBBF222B5AC3DB79C3AA /* PDFKPageScrubber.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD30F336912BECAE63D8300B464F1FE /* PDFKPageScrubber.m */; };
+		08F281E63B9B7AC863EA39A8F5722F5B /* PDFKThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FAE0E33377F10A0932DD5777376D0C2 /* PDFKThumbView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC9980C7A62DECA2620F550D42C212F /* PDFKDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 70EEDDC0044B06155FAC1D9F1E9BEBD2 /* PDFKDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AE225407B1368A16A4C09C5BFF25A39 /* TTOpenInAppActivity7.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F72E952514A9355CB426AA24787AB1 /* TTOpenInAppActivity7.png */; };
 		0B177241D0EB1F64624FDF8638A524BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561575D9EB374B547DF82B26B35CE /* UIKit.framework */; };
-		0CF8A06F431DF72D5EAF34E63CE61F9E /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C181B154A9D48A7D69EBF0A7937A0E /* CGPDFDocument.m */; };
-		139C7AE65D233B2C0AB9DE39D711CFF6 /* PDFKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 505187E444727699532AB8D19E5DDFC0 /* PDFKDocument.m */; };
-		161842D73721DCB9805EC4A8926F9F6F /* TTOpenInAppActivity7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55309E362D90A7B17229E268A218153A /* TTOpenInAppActivity7@2x.png */; };
-		18391B5FAA3ADB07EF3050C7808D5746 /* Thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D0C78AF6BBBF4D1BBE1BB19D3D5E360 /* Thumbs.png */; };
+		0CF8A06F431DF72D5EAF34E63CE61F9E /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3B604FD21B278E5D5BBD3D3A536391 /* CGPDFDocument.m */; };
+		11EF2893A221C240F48045A8ACB5A608 /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F2311B2FDC0AD2F1218D20A2A5C2C /* String+Lines.swift */; };
+		139C7AE65D233B2C0AB9DE39D711CFF6 /* PDFKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C7D43D0DE5FEF5FF0359F87EB7009B /* PDFKDocument.m */; };
+		161842D73721DCB9805EC4A8926F9F6F /* TTOpenInAppActivity7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13893318EC867CB39D470D8AA23FF0F5 /* TTOpenInAppActivity7@2x.png */; };
+		18391B5FAA3ADB07EF3050C7808D5746 /* Thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D81F3C89BE02F5C446411191E4061 /* Thumbs.png */; };
 		1C6E880DD01EB4CFB852567D7C9323CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ADFE37F036E2EF35FD2CA4B73D5D3 /* Foundation.framework */; };
-		215C2EDE365AEBDFCC2E5812D3238FE2 /* PDFKPageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 21FFEEE40E0FBF57F75E81B721531932 /* PDFKPageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2817103C9F60D7FEEEE1CBC6B7167BDB /* Pods-MokhtaserAlNaseha-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D65FE79BB88843BE3E575D09A2E198FA /* Pods-MokhtaserAlNaseha-dummy.m */; };
-		29C8FA6BA2C75151845FFD5E4CB9DC71 /* PDFKThumbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1CD6B137C3A6ECFFD7223A095B7423 /* PDFKThumbRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		316C10DDDD99DC2B7895241604F09C2F /* Bookmark@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = D41DBFA3EBBCDA6D66504042366AB84D /* Bookmark@2x.psd */; };
-		349DE2E7DD58B11090DD4F60990A7C7B /* Thumbs@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 51EC33FF8D54F5BE43221028C53CA2FD /* Thumbs@3x.psd */; };
-		361A75CDA9217FA93C1CB67278A88BE5 /* Thumbs.psd in Resources */ = {isa = PBXBuildFile; fileRef = 6AEFE4E8E5976F0BFE229CAEF6C99E7F /* Thumbs.psd */; };
-		38829A32E5181EF785DFC3E50C4D7174 /* PDFKBasicPDFViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CDD52DA825F469672817682A615695 /* PDFKBasicPDFViewer.m */; };
-		3923DBB4FE6CB3AF81092D12378108D8 /* Bookmarked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3163DF0615805E43986E4BAE80EEA5C /* Bookmarked@2x.png */; };
-		399EEFC1487D31E30737E009ABDE3EB6 /* TTOpenInAppActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B904ED0F4AE020CAFF3CA8F88ECB16B /* TTOpenInAppActivity.png */; };
-		4426035DB0530CC2824AFF32F3D07470 /* SwiftCSV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D28900019D8F723C7C093027EBB2673 /* SwiftCSV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		215C2EDE365AEBDFCC2E5812D3238FE2 /* PDFKPageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A729D188BB63307F11974BAD131334 /* PDFKPageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29C8FA6BA2C75151845FFD5E4CB9DC71 /* PDFKThumbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBE4A7ED573002B45113D00C6E7C274 /* PDFKThumbRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		316C10DDDD99DC2B7895241604F09C2F /* Bookmark@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = DE513EE3C50A345340138F688929A14D /* Bookmark@2x.psd */; };
+		344C230A1E830B7F48E3E370FFF327F0 /* SwiftCSV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD79DAECBCCE2DFBB8DEBABBF06EE3 /* SwiftCSV-dummy.m */; };
+		349DE2E7DD58B11090DD4F60990A7C7B /* Thumbs@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 7937DA66267E7E25C79B213F7BDEED6F /* Thumbs@3x.psd */; };
+		361A75CDA9217FA93C1CB67278A88BE5 /* Thumbs.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3A998D0B67D2AAC07B0476F63ADD6 /* Thumbs.psd */; };
+		38829A32E5181EF785DFC3E50C4D7174 /* PDFKBasicPDFViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC391A1CE6DFD1A263223AF9DA9B538 /* PDFKBasicPDFViewer.m */; };
+		3923DBB4FE6CB3AF81092D12378108D8 /* Bookmarked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0FAE94BE5FDF3DE6D0C1D4DD68001F /* Bookmarked@2x.png */; };
+		399EEFC1487D31E30737E009ABDE3EB6 /* TTOpenInAppActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 471D97E9AD5EC65E1DB8B8F55BB3C5F6 /* TTOpenInAppActivity.png */; };
+		40569BB764026A6888A4C8107C67C6FB /* ParserHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25324D9FEA34254B8B478671F7A8C993 /* ParserHelpers.swift */; };
+		44AF201C8D8EC71E526A53A6374F729E /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E87626F3C8E4C4916D111827DCA2A7 /* Description.swift */; };
 		457CC525B772FED6B994084BA25F7703 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17584B2A11C0737EDF5F0990CF52D533 /* MobileCoreServices.framework */; };
-		46BA951F15B42B993097849C311E6631 /* PDFKThumbFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 671832AB9BC8932D7AC6AD4548A56A20 /* PDFKThumbFetcher.m */; };
-		4D2E2FEB9B8EA0857627F03DC461FB91 /* PDFKBasicPDFViewerThumbsCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = E735FF18465A0199466ED3F7161F7EAD /* PDFKBasicPDFViewerThumbsCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D58EA2FA2E3623C25C2D96937A6DD39 /* PDFKPageScrubber.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5F72381B6C0E8048186F9210CA719B /* PDFKPageScrubber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F1E5BAA3267498E445BD91936C5C20F /* Bookmarked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C7A386EB08FE52F9325E8BE93767B7 /* Bookmarked@3x.png */; };
+		46BA951F15B42B993097849C311E6631 /* PDFKThumbFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F69763DD7740178B96127C13BA9E7F3 /* PDFKThumbFetcher.m */; };
+		4709D9103BF323C4762AF596E964D6E1 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A036A0F43CF1C7A870B0F49CE51032 /* CGRectEx.swift */; };
+		4D2E2FEB9B8EA0857627F03DC461FB91 /* PDFKBasicPDFViewerThumbsCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 236321446445E149435518B8930F80D3 /* PDFKBasicPDFViewerThumbsCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D58EA2FA2E3623C25C2D96937A6DD39 /* PDFKPageScrubber.h in Headers */ = {isa = PBXBuildFile; fileRef = F165FB70753DEE7D4157EA5BC843999E /* PDFKPageScrubber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F1E5BAA3267498E445BD91936C5C20F /* Bookmarked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A7F96E5DA68357BE02AA287F695A64 /* Bookmarked@3x.png */; };
 		535AB5E644A83FBC2BFAD96A3805E854 /* Pods-MokhtaserAlNasehaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48977524076A569AED7D377C19A07EAB /* Pods-MokhtaserAlNasehaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5473CE09C9D575422D77A1F2994A25AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ADFE37F036E2EF35FD2CA4B73D5D3 /* Foundation.framework */; };
-		554DAC8343E044BE96F47EF488C61F94 /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5055CD7208E7D49781936FEE9CB04C /* String+Lines.swift */; };
-		587222662F05DEC4767E9B5B40910894 /* PageList@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = AD654D701EE74139CA3E59388A77721E /* PageList@3x.psd */; };
-		58A3338F0FA4BF809975AFBF0D899CB9 /* PDFKPageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E9BA37B4D0923C5E550A148A7650A2 /* PDFKPageContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E8265FB7D085A1A1285F60C01C6E33 /* LiquidFloatingActionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69911EE1C6A25AEF680099F092E091C0 /* LiquidFloatingActionButton-dummy.m */; };
+		587222662F05DEC4767E9B5B40910894 /* PageList@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = CB81A721CB0CA2C4077772D8292893FA /* PageList@3x.psd */; };
+		58A3338F0FA4BF809975AFBF0D899CB9 /* PDFKPageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E0F96D5F0BF497A926831068BD781A9 /* PDFKPageContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CB76A9A33546A84A98A20E081D2F5A5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EC375AA84E52351EF24FD16AC4C7C8 /* ImageIO.framework */; };
-		5E91B11EC9D96FD6216805C970B440E1 /* PDFKBasicPDFViewerSinglePageCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = C955AC81858E1467485C16A43A8F9D76 /* PDFKBasicPDFViewerSinglePageCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60F720B5F18571AE8A1F495FABB0534F /* ParserHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9407255AAA2B03FBFB86EAFCB3167 /* ParserHelpers.swift */; };
-		6293A0AE0C63B0622A0E6971391E1E4E /* PDFKBasicPDFViewerThumbsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 705C27D65E141A60916D38937328F1A1 /* PDFKBasicPDFViewerThumbsCollectionView.m */; };
-		67941AEFDF46CE3F71E42D6B13CA3B04 /* PDFKThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A59D70A044F07934A97AB7BEE4E587 /* PDFKThumbRequest.m */; };
-		6CD27681BA699057D41CB56672FE3187 /* PageList@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5FE18AAC9624907F81C904797100BA /* PageList@3x.png */; };
-		6F6FA583EB1226BD5CB8638AFE51AD4F /* PageList.png in Resources */ = {isa = PBXBuildFile; fileRef = E805AF25143FEFC93DD220D536357077 /* PageList.png */; };
+		5E91B11EC9D96FD6216805C970B440E1 /* PDFKBasicPDFViewerSinglePageCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDAA91E4B7A7608669CB854C5A0501C /* PDFKBasicPDFViewerSinglePageCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6293A0AE0C63B0622A0E6971391E1E4E /* PDFKBasicPDFViewerThumbsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F29C066C4A563FD6D62D48687A42B2 /* PDFKBasicPDFViewerThumbsCollectionView.m */; };
+		67941AEFDF46CE3F71E42D6B13CA3B04 /* PDFKThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A23C3FC7775DA30C7F530CC933C63FC /* PDFKThumbRequest.m */; };
+		6CD27681BA699057D41CB56672FE3187 /* PageList@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DED79315420EB36E3AF04BC28058B1E /* PageList@3x.png */; };
+		6F6FA583EB1226BD5CB8638AFE51AD4F /* PageList.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB54D1AAE8ACEA35586388F91238F30 /* PageList.png */; };
 		721586346205EC2830CBACC64F1E10D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561575D9EB374B547DF82B26B35CE /* UIKit.framework */; };
-		72249BC3085EC98A96795142167F5DB4 /* Bookmarked.psd in Resources */ = {isa = PBXBuildFile; fileRef = 13CB2B0ADA3FA42BB2766393E601B6ED /* Bookmarked.psd */; };
-		72267C07276C96949D774816D1283B48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ADFE37F036E2EF35FD2CA4B73D5D3 /* Foundation.framework */; };
+		72249BC3085EC98A96795142167F5DB4 /* Bookmarked.psd in Resources */ = {isa = PBXBuildFile; fileRef = 7243AB9FB680937626DEF0849A343A6B /* Bookmarked.psd */; };
 		742288AAAA91372028692751E2745EDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ADFE37F036E2EF35FD2CA4B73D5D3 /* Foundation.framework */; };
+		781472CF709E1FAEAD9E27E7AF3414FC /* CGPointEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D36ABCAC7DFB35AE57542B8715B672 /* CGPointEx.swift */; };
 		78A33A27EE33F246E029E7D44DF9EBB2 /* TTOpenInAppActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A9966200EF52BCA41BA719DB699832 /* TTOpenInAppActivity.framework */; };
+		7CAD1B2021D8C9B90AB394ABE443B9F9 /* Pods-MokhtaserAlNaseha-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D65FE79BB88843BE3E575D09A2E198FA /* Pods-MokhtaserAlNaseha-dummy.m */; };
 		7D458FABE70503BA4E91D1D813EBABBF /* Pods-MokhtaserAlNasehaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA446557533B06D3D66E47D5FE0BD7 /* Pods-MokhtaserAlNasehaTests-dummy.m */; };
-		7D660C63FCE2D0A0629FAF5FB254DA7F /* Bookmarked@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 85351094083E66D7D339837329B310C8 /* Bookmarked@3x.psd */; };
-		83288E986FFDF009F4E98883148FAA05 /* PDFKThumbQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = AC65F21FFCC59D4851F38574BBD19199 /* PDFKThumbQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87E19C3D53F1B6682224D0FABC7561E5 /* TTOpenInAppActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E288331AF05B6D0D1BE462FCEB30C3F /* TTOpenInAppActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		885F40970BC6BCE8767A1A6285F264B8 /* TTOpenInAppActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CCF2C0C7FDC0E9E206464026FCEF47 /* TTOpenInAppActivity@2x.png */; };
-		88769389524CCD117BCA11F33F49710A /* Bookmarked@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = A20E3A389A6CB0BD08C24D076F928DF1 /* Bookmarked@2x.psd */; };
-		8B0E7C5E8B00DFD104F6A32B492D6EF4 /* PDFKThumbRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2D53230782AC6290DCF74C886AA9 /* PDFKThumbRenderer.m */; };
-		94D11AD09AFA1F804214F489B8DDA5D3 /* Thumbs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D3170B9AE3468DC4F8D4D83413F58EB /* Thumbs@3x.png */; };
-		9E308A2B52135D025273C7F283BEDCA8 /* Pods-MokhtaserAlNaseha-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1035C272B3FC3D9D9E564E8609D40E /* Pods-MokhtaserAlNaseha-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1CE1668450BAFF9EC728CB909E56496 /* Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24748D91ED7722BF60C2352372277EE2 /* Thumbs@2x.png */; };
+		7D660C63FCE2D0A0629FAF5FB254DA7F /* Bookmarked@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1C4041F307B1A7CF50B216D3420CCC07 /* Bookmarked@3x.psd */; };
+		7E538EF481F898874DF94F0F8CBC5D2C /* LiquidFloatingActionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE389927F2FD8302576BFA2660F2039C /* LiquidFloatingActionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83288E986FFDF009F4E98883148FAA05 /* PDFKThumbQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1C71CB9C97C4A66E38AF156C6D2ADA /* PDFKThumbQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E19C3D53F1B6682224D0FABC7561E5 /* TTOpenInAppActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E13B59D0A14C0967E7135B07CC027BD /* TTOpenInAppActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		885F40970BC6BCE8767A1A6285F264B8 /* TTOpenInAppActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 599488C2724FEE4484871C583DC32BEA /* TTOpenInAppActivity@2x.png */; };
+		88769389524CCD117BCA11F33F49710A /* Bookmarked@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 6DCF06B7A7162F3E2B8108CE348455DA /* Bookmarked@2x.psd */; };
+		8B0E7C5E8B00DFD104F6A32B492D6EF4 /* PDFKThumbRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FFDA91946F6E40006BE3EBEABDD08 /* PDFKThumbRenderer.m */; };
+		8C5BBA7D6C5F8255362357D19AE888FA /* LiquidUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A98F50748152DEA05BFD1CFA7C358A /* LiquidUtil.swift */; };
+		94D11AD09AFA1F804214F489B8DDA5D3 /* Thumbs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE3402C91D2C7D7A5FC6BB36FD77997 /* Thumbs@3x.png */; };
+		9793A354CB8F3964B73A4A16ADEA71C7 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3312CF9E22FB5477188CA79F4A2FABB6 /* UIColorEx.swift */; };
+		990DC2D109BD55FA176CDABBFC65CFF0 /* SwiftCSV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8706F8E9E2C477B8A6D9EE714AE208B0 /* SwiftCSV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B5FA604981DE7DD8697A0A6D98BF198 /* Pods-MokhtaserAlNaseha-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1035C272B3FC3D9D9E564E8609D40E /* Pods-MokhtaserAlNaseha-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1CE1668450BAFF9EC728CB909E56496 /* Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C34D924D1033A7D8E020301CC43BDEE6 /* Thumbs@2x.png */; };
 		A2DC01AA84FEAA235BA95A3768B0B16E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ADFE37F036E2EF35FD2CA4B73D5D3 /* Foundation.framework */; };
-		AA2D930971EDAFDD69E61BBB819E623C /* PDFKPageContentLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDFE030120EAB2657D9D35EE2B727B4 /* PDFKPageContentLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B066BE9177A040F0D8A49ACF927EFAA1 /* PDFKBasicPDFViewerSinglePageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5F03A910485DE6A82B8CD9EBF9370B /* PDFKBasicPDFViewerSinglePageCollectionView.m */; };
-		B08FF52C2DB6E02543BC5DB4BA80CB02 /* PDFKThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3198C2AA44A6EF4BEB4C5DC914F61E /* PDFKThumbView.m */; };
-		B1B3ED6AD107DA92D00BC616C6FEECDB /* SwiftCSV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 960EC6202C944484072EEC7DC657AE43 /* SwiftCSV-dummy.m */; };
+		AA2D930971EDAFDD69E61BBB819E623C /* PDFKPageContentLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CAB52D8F15781DA93D2F499C573919 /* PDFKPageContentLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD29019A0FBE9EAB8C6AF86CD40D7D00 /* LiquittableCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3E2A362B2F54D69E8AE9863F3643B /* LiquittableCircle.swift */; };
+		B066BE9177A040F0D8A49ACF927EFAA1 /* PDFKBasicPDFViewerSinglePageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F61FDBEDA589099DD9B859B7B4F438 /* PDFKBasicPDFViewerSinglePageCollectionView.m */; };
+		B08FF52C2DB6E02543BC5DB4BA80CB02 /* PDFKThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6AC827F77BDD5641F2AC9B0FDAB93 /* PDFKThumbView.m */; };
+		B4B62AAB276BE9373787CD7CED212CD0 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6404A69C2B9D65046D349864464E9E35 /* Parser.swift */; };
 		B51C150502A2156A5AB6342D51E6F5B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0E4C44DEB31289534D14A7A212A7E7 /* CoreGraphics.framework */; };
-		B6CEB8EF9D887FBDE6F9CECE57EBF2FA /* PDFKPageContentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF375070EB4E89E6418A51212488D0 /* PDFKPageContentLayer.m */; };
-		B8147E39E39C5E9AF61E49C56A6B7948 /* TTOpenInAppActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28ED8BA9C78A0F296CA5021D03115D0D /* TTOpenInAppActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9E6BBA1F6C429A68152F8D561E17ECE /* PageList@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 45C4A2A2DD556FCDB4BFE5B1D6D9E2E1 /* PageList@2x.psd */; };
-		BA2066425819A6431CCDA36C674AD823 /* PDFKThumbFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 720C2EC0E63A76EDA9454FB7C3E039D5 /* PDFKThumbFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAA5996A183AE087F5459786F683F047 /* Bookmarked.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4430C3496DCA93638AFD39A0FA2987 /* Bookmarked.png */; };
+		B6CEB8EF9D887FBDE6F9CECE57EBF2FA /* PDFKPageContentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 283198F3E11571AC1A7CFEA05033C49D /* PDFKPageContentLayer.m */; };
+		B8147E39E39C5E9AF61E49C56A6B7948 /* TTOpenInAppActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB71A0F69851F3925C75F11DECAEA83 /* TTOpenInAppActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E6BBA1F6C429A68152F8D561E17ECE /* PageList@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = CA2EFF84C9A6592759826F568239572D /* PageList@2x.psd */; };
+		BA2066425819A6431CCDA36C674AD823 /* PDFKThumbFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E978148E554DB318F6C50DE09CE495F1 /* PDFKThumbFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA5996A183AE087F5459786F683F047 /* Bookmarked.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B938AE5BD7AEC8A2B81518555E93DB /* Bookmarked.png */; };
+		BAEAF2FF023499FB59C034E3E5BDF254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ADFE37F036E2EF35FD2CA4B73D5D3 /* Foundation.framework */; };
 		BFD6B45D1CE3262A32C0B4D800707ACC /* Pods-MokhtaserAlNasehaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00266669DBEA14913CFCB1E27B427886 /* Pods-MokhtaserAlNasehaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFF2C709D9A8C663A4732816D58C2CBA /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EA54629DD349C3C7D171F7A5B01A97 /* CSV.swift */; };
-		C2CA53D4B0846A42E00C02B5BAF51FBC /* Bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEDB0C23797465029E87108AB86D9C8 /* Bookmark.png */; };
-		C3A8EFEA8EA980CF82848FAEFC0AC703 /* Thumbs@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2443F99AC9789DDFB59E408EDDE32AC0 /* Thumbs@2x.psd */; };
-		C3E057C91B912297DC046F8FAE322306 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476D86BB576779969BDDF0A6106BC4E /* Description.swift */; };
-		C6A961EA60EA58B66F5A215F25671187 /* PDFKThumbRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DFDD228DB3F764355ABC93836A1851 /* PDFKThumbRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2CA53D4B0846A42E00C02B5BAF51FBC /* Bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C48418B2CB4F6C0581050EDDCFF0B8 /* Bookmark.png */; };
+		C3A8EFEA8EA980CF82848FAEFC0AC703 /* Thumbs@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = AE1C9ECCED3D0535A84DA5460795E3C9 /* Thumbs@2x.psd */; };
+		C6A961EA60EA58B66F5A215F25671187 /* PDFKThumbRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 05765A0C5553691098BD4F5D1556275A /* PDFKThumbRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA8CB7E614AFB9A04D5BBC2E87E6DEF5 /* SimpleCircleLiquidEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF164F12E793831D30E868833324F2F /* SimpleCircleLiquidEngine.swift */; };
+		CBBC973068730FD303BB838C1F2D6F84 /* LiquidFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA2B3EAFEE0E4E830D7721CBF1D7F9 /* LiquidFloatingActionButton.swift */; };
+		CFE36779F2D1A1F776DD350B0BF79DA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ADFE37F036E2EF35FD2CA4B73D5D3 /* Foundation.framework */; };
 		D063BF87B27AAD7769D958CB1C2A5310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ADFE37F036E2EF35FD2CA4B73D5D3 /* Foundation.framework */; };
-		D1EE0EF0ECE75BEE7063EEB0F17F3FFA /* TTOpenInAppActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A49118E6A6ED8EE094902B42634B61C4 /* TTOpenInAppActivity-dummy.m */; };
+		D1EE0EF0ECE75BEE7063EEB0F17F3FFA /* TTOpenInAppActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C550791176320652B113083682B71D2 /* TTOpenInAppActivity-dummy.m */; };
 		D4D53D57DC79BBF6C5A3DC3F01113DC9 /* Pods-MokhtaserAlNasehaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F53B987CACC7322240296AF1639B45C /* Pods-MokhtaserAlNasehaUITests-dummy.m */; };
-		D55235C1C264D3C05B998A3412F9CC02 /* TTOpenInAppActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D92F19883AD65B6496DFAE33FAF1F0DC /* TTOpenInAppActivity.m */; };
-		D9E52BC0DF3A619B817342AD6A1B880F /* Bookmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB747BDF6E150F35CC9C5F6590E147B6 /* Bookmark@3x.png */; };
-		DE3726A740F635767C4941B28675EEDB /* M13PDFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CEE6FFC50BB5998DC1A7CAD25D5E0A /* M13PDFKit-dummy.m */; };
-		DF422EDC85FAC9A6316693523F6B9DC5 /* PageList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC81CE03D604A73D91E4FFD55217FF4 /* PageList@2x.png */; };
-		E07361C312FD320BF5234E535D2528A6 /* M13PDFKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B3344CB886F248CC6C16E0C6BB1F6C18 /* M13PDFKitResources.bundle */; };
-		E29CD645BCF7A7BF7D50B0B39820B41A /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD8568C7FC2FC59053D5562E08D2C11 /* Parser.swift */; };
-		E85EC60B73373C6E79677B1DE6E3B228 /* Bookmark.psd in Resources */ = {isa = PBXBuildFile; fileRef = E2EFB189C4B09A549BFA7584B7DB751D /* Bookmark.psd */; };
-		E9D57788FB7689D515C9535089F50C43 /* PDFKPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4AEF1155163D7ACBCF93817C6A88FD /* PDFKPageContentView.m */; };
-		EEC497C8E1D7766B3CC40DDB9E694791 /* CGPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB0CE93DC5120D493C7BD652040D95A /* CGPDFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4C09207F4056FD5F1CCF059C42603B8 /* PDFKThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D91DA5A33B3AE4174FCC10662A42A984 /* PDFKThumbQueue.m */; };
-		F541D695936F744D1AFD40932BE563D5 /* Bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2315CD2AE808B7FB2A1A9F196DC86 /* Bookmark@2x.png */; };
-		F67DC7DFAE9F0F2A4C735A0E2F03EEAE /* PDFKThumbCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F96BD608B1A045C6EB855306F41DD /* PDFKThumbCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F728D863838D56241CFF6C010202F239 /* PDFKBasicPDFViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E3F162B7DF879E8154D8161D0BD7E4 /* PDFKBasicPDFViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F77B87AC55BCDB605F33D4D301A9E08A /* M13PDFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B2176995A84FFC1BECC2EE309FFBF0 /* M13PDFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC21330862827CF1A10023B9966686BA /* PDFKThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 102E3199C39D968AFEBA88847D46BC15 /* PDFKThumbCache.m */; };
-		FDCE04E5F86C59E5808D96CF6B591879 /* PDFKPageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B93E74907BBB747443C0A3B7BF53EF /* PDFKPageContent.m */; };
+		D55235C1C264D3C05B998A3412F9CC02 /* TTOpenInAppActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAB11D063EB82CCE9BFC42EF2F28F2 /* TTOpenInAppActivity.m */; };
+		D9E52BC0DF3A619B817342AD6A1B880F /* Bookmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7BE7F90E75A6A18D8EAFEAEAEF4E70 /* Bookmark@3x.png */; };
+		DB9B643DB10A60B76DD942B8753E5F39 /* ArrayEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93334F432E97F63767358ADD70191327 /* ArrayEx.swift */; };
+		DE3726A740F635767C4941B28675EEDB /* M13PDFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A166CAA3DF3AAEE05B20D1B43F0BD7AC /* M13PDFKit-dummy.m */; };
+		DF422EDC85FAC9A6316693523F6B9DC5 /* PageList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16EBD345CA4BF34A741F9E3554960384 /* PageList@2x.png */; };
+		E07361C312FD320BF5234E535D2528A6 /* M13PDFKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A89896D041DC76854100AD69D29AAE79 /* M13PDFKitResources.bundle */; };
+		E5B0E2E585750C1CD8AEF3AF35197C9D /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51CA69542819ACB821158FFE2404069 /* CSV.swift */; };
+		E85EC60B73373C6E79677B1DE6E3B228 /* Bookmark.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E92A904764C84164CB2268F3FC78E /* Bookmark.psd */; };
+		E9D57788FB7689D515C9535089F50C43 /* PDFKPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B95951688AEFFE0B7F5BE5EFB487851 /* PDFKPageContentView.m */; };
+		EAC4522ECD9EDE06632C34321215099E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1ADFE37F036E2EF35FD2CA4B73D5D3 /* Foundation.framework */; };
+		EEC497C8E1D7766B3CC40DDB9E694791 /* CGPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AAB842554FA44FF2829733FFD1A5317 /* CGPDFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4C09207F4056FD5F1CCF059C42603B8 /* PDFKThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D95238C862E05C394E337BAE986C2B35 /* PDFKThumbQueue.m */; };
+		F541D695936F744D1AFD40932BE563D5 /* Bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BD8E860EA588CC0F91B78C545CACF8 /* Bookmark@2x.png */; };
+		F67DC7DFAE9F0F2A4C735A0E2F03EEAE /* PDFKThumbCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB9FDD54AB48C79939316820DE7C531 /* PDFKThumbCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F728D863838D56241CFF6C010202F239 /* PDFKBasicPDFViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBF0842A8B02561D66CC2C334AB443F /* PDFKBasicPDFViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77B87AC55BCDB605F33D4D301A9E08A /* M13PDFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34ECAA6BA4BC31F79980405E6FABCF68 /* M13PDFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC21330862827CF1A10023B9966686BA /* PDFKThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABFCCC067D37CC4503E8CC2EE9F6145 /* PDFKThumbCache.m */; };
+		FDCE04E5F86C59E5808D96CF6B591879 /* PDFKPageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E139734B0A2CCDC11D85C5B1559CFE0 /* PDFKPageContent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0F183CBBC0286829F2DC4122D4599BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE720B73013F2790416DFAC40270F13D;
+			remoteInfo = SwiftCSV;
+		};
 		106C0F854E95E3C8F263EC1932B1F6B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -107,21 +125,21 @@
 			remoteGlobalIDString = 5056C707EE63FCBCB465F1E387B9404D;
 			remoteInfo = "M13PDFKit-M13PDFKitResources";
 		};
-		94FACDFF3ECCD473DCA86102FADBEF8F /* PBXContainerItemProxy */ = {
+		243079F539A01F6BEEDF7D991C64D9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCE15B65BE1423E31A139A48360119E;
+			remoteInfo = LiquidFloatingActionButton;
+		};
+		2FB90ABB3C241F31AA88AE2CB64C878D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 932C2BBB5BD730E61475947CF8BAC7D4;
 			remoteInfo = TTOpenInAppActivity;
 		};
-		CEA2231E67DB966D005727A477737152 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C54CEEFA247A34ACE73DF758D063B835;
-			remoteInfo = SwiftCSV;
-		};
-		E4110AD48F521297871E37687379C3CC /* PBXContainerItemProxy */ = {
+		9690F2C9BC57CFFCE896D8199120EFE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -139,131 +157,146 @@
 
 /* Begin PBXFileReference section */
 		00266669DBEA14913CFCB1E27B427886 /* Pods-MokhtaserAlNasehaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MokhtaserAlNasehaUITests-umbrella.h"; sourceTree = "<group>"; };
-		00503A7AA1F32F37ED78777A02293822 /* TTOpenInAppActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TTOpenInAppActivity.modulemap; sourceTree = "<group>"; };
-		00DFDD228DB3F764355ABC93836A1851 /* PDFKThumbRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbRenderer.h; path = Classes/Thumbs/PDFKThumbRenderer.h; sourceTree = "<group>"; };
-		0739BBF7FA7B37A1475716DF1FDD45B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D36ABCAC7DFB35AE57542B8715B672 /* CGPointEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointEx.swift; path = Pod/Classes/CGPointEx.swift; sourceTree = "<group>"; };
+		05765A0C5553691098BD4F5D1556275A /* PDFKThumbRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbRenderer.h; path = Classes/Thumbs/PDFKThumbRenderer.h; sourceTree = "<group>"; };
 		07B9D441CCB5671E203BE9362292CA2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08E12C6E122AADEE4531A3AAFDA0A532 /* Pods-MokhtaserAlNasehaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MokhtaserAlNasehaTests-resources.sh"; sourceTree = "<group>"; };
-		09B93E74907BBB747443C0A3B7BF53EF /* PDFKPageContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageContent.m; path = Classes/View/PDFKPageContent.m; sourceTree = "<group>"; };
-		0A5FE18AAC9624907F81C904797100BA /* PageList@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "PageList@3x.png"; path = "Resources/PageList@3x.png"; sourceTree = "<group>"; };
-		0BDFB917E3CD2064F72557F6C82B4E5B /* TTOpenInAppActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTOpenInAppActivity-prefix.pch"; sourceTree = "<group>"; };
-		0D0C78AF6BBBF4D1BBE1BB19D3D5E360 /* Thumbs.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Thumbs.png; path = Resources/Thumbs.png; sourceTree = "<group>"; };
-		0D4AEF1155163D7ACBCF93817C6A88FD /* PDFKPageContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageContentView.m; path = Classes/View/PDFKPageContentView.m; sourceTree = "<group>"; };
-		0F1CD6B137C3A6ECFFD7223A095B7423 /* PDFKThumbRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbRequest.h; path = Classes/Thumbs/PDFKThumbRequest.h; sourceTree = "<group>"; };
-		102E3199C39D968AFEBA88847D46BC15 /* PDFKThumbCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbCache.m; path = Classes/Thumbs/PDFKThumbCache.m; sourceTree = "<group>"; };
 		116ADAFA12E856B6682B896E93AB7B70 /* Pods-MokhtaserAlNaseha-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MokhtaserAlNaseha-acknowledgements.markdown"; sourceTree = "<group>"; };
-		13CB2B0ADA3FA42BB2766393E601B6ED /* Bookmarked.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Bookmarked.psd; path = Resources/Bookmarked.psd; sourceTree = "<group>"; };
-		14A59D70A044F07934A97AB7BEE4E587 /* PDFKThumbRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbRequest.m; path = Classes/Thumbs/PDFKThumbRequest.m; sourceTree = "<group>"; };
+		13893318EC867CB39D470D8AA23FF0F5 /* TTOpenInAppActivity7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "TTOpenInAppActivity7@2x.png"; path = "TTOpenInAppActivity/TTOpenInAppActivity7@2x.png"; sourceTree = "<group>"; };
+		14A6AC827F77BDD5641F2AC9B0FDAB93 /* PDFKThumbView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbView.m; path = Classes/Thumbs/PDFKThumbView.m; sourceTree = "<group>"; };
+		14A729D188BB63307F11974BAD131334 /* PDFKPageContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageContent.h; path = Classes/View/PDFKPageContent.h; sourceTree = "<group>"; };
+		16EBD345CA4BF34A741F9E3554960384 /* PageList@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "PageList@2x.png"; path = "Resources/PageList@2x.png"; sourceTree = "<group>"; };
 		17584B2A11C0737EDF5F0990CF52D533 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		1A0FAE94BE5FDF3DE6D0C1D4DD68001F /* Bookmarked@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmarked@2x.png"; path = "Resources/Bookmarked@2x.png"; sourceTree = "<group>"; };
+		1C4041F307B1A7CF50B216D3420CCC07 /* Bookmarked@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Bookmarked@3x.psd"; path = "Resources/Bookmarked@3x.psd"; sourceTree = "<group>"; };
 		1C6295A5B64B0C605EC46CA98F0D8C70 /* Pods-MokhtaserAlNasehaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MokhtaserAlNasehaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D5FFDA91946F6E40006BE3EBEABDD08 /* PDFKThumbRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbRenderer.m; path = Classes/Thumbs/PDFKThumbRenderer.m; sourceTree = "<group>"; };
 		1DF6EE5908886091F4A1B708B8E69768 /* Pods-MokhtaserAlNaseha-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MokhtaserAlNaseha-frameworks.sh"; sourceTree = "<group>"; };
-		1E288331AF05B6D0D1BE462FCEB30C3F /* TTOpenInAppActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTOpenInAppActivity.h; path = TTOpenInAppActivity/TTOpenInAppActivity.h; sourceTree = "<group>"; };
+		1E139734B0A2CCDC11D85C5B1559CFE0 /* PDFKPageContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageContent.m; path = Classes/View/PDFKPageContent.m; sourceTree = "<group>"; };
+		1F0E05901700B5C27C9B8443C1C2925C /* Pods_MokhtaserAlNasehaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNasehaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0E4C44DEB31289534D14A7A212A7E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1FBE4A7ED573002B45113D00C6E7C274 /* PDFKThumbRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbRequest.h; path = Classes/Thumbs/PDFKThumbRequest.h; sourceTree = "<group>"; };
 		21F561575D9EB374B547DF82B26B35CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		21FFEEE40E0FBF57F75E81B721531932 /* PDFKPageContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageContent.h; path = Classes/View/PDFKPageContent.h; sourceTree = "<group>"; };
-		2443F99AC9789DDFB59E408EDDE32AC0 /* Thumbs@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Thumbs@2x.psd"; path = "Resources/Thumbs@2x.psd"; sourceTree = "<group>"; };
-		24748D91ED7722BF60C2352372277EE2 /* Thumbs@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Thumbs@2x.png"; path = "Resources/Thumbs@2x.png"; sourceTree = "<group>"; };
-		248A40FB3BB771BDF5DFE5DB7AE74B1E /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26C181B154A9D48A7D69EBF0A7937A0E /* CGPDFDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGPDFDocument.m; path = Classes/Document/CGPDFDocument.m; sourceTree = "<group>"; };
-		27EFFDCD67DB8165FBB7B0F5DABB8CB9 /* SwiftCSV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSV-prefix.pch"; sourceTree = "<group>"; };
-		28EA54629DD349C3C7D171F7A5B01A97 /* CSV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = SwiftCSV/CSV.swift; sourceTree = "<group>"; };
-		28ED8BA9C78A0F296CA5021D03115D0D /* TTOpenInAppActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTOpenInAppActivity-umbrella.h"; sourceTree = "<group>"; };
-		2B76338DA76415564FB14EF356FECF97 /* PDFKDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKDocument.h; path = Classes/Document/PDFKDocument.h; sourceTree = "<group>"; };
-		2E3198C2AA44A6EF4BEB4C5DC914F61E /* PDFKThumbView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbView.m; path = Classes/Thumbs/PDFKThumbView.m; sourceTree = "<group>"; };
+		236321446445E149435518B8930F80D3 /* PDFKBasicPDFViewerThumbsCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKBasicPDFViewerThumbsCollectionView.h; path = Classes/View/PDFKBasicPDFViewerThumbsCollectionView.h; sourceTree = "<group>"; };
+		238F2311B2FDC0AD2F1218D20A2A5C2C /* String+Lines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Lines.swift"; path = "SwiftCSV/String+Lines.swift"; sourceTree = "<group>"; };
+		25324D9FEA34254B8B478671F7A8C993 /* ParserHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParserHelpers.swift; path = SwiftCSV/ParserHelpers.swift; sourceTree = "<group>"; };
+		259467BE99A3203A9137071E95009661 /* LiquidFloatingActionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiquidFloatingActionButton.xcconfig; sourceTree = "<group>"; };
+		283198F3E11571AC1A7CFEA05033C49D /* PDFKPageContentLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageContentLayer.m; path = Classes/View/PDFKPageContentLayer.m; sourceTree = "<group>"; };
+		2CB3A998D0B67D2AAC07B0476F63ADD6 /* Thumbs.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Thumbs.psd; path = Resources/Thumbs.psd; sourceTree = "<group>"; };
+		2E0F96D5F0BF497A926831068BD781A9 /* PDFKPageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageContentView.h; path = Classes/View/PDFKPageContentView.h; sourceTree = "<group>"; };
+		2F5E92A904764C84164CB2268F3FC78E /* Bookmark.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Bookmark.psd; path = Resources/Bookmark.psd; sourceTree = "<group>"; };
 		312F9A0B8EF4D532F294F86330E4E8D7 /* Pods-MokhtaserAlNaseha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MokhtaserAlNaseha.debug.xcconfig"; sourceTree = "<group>"; };
-		335BDB74F7D0ADD19C8DD761FC97A143 /* M13PDFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = M13PDFKit.modulemap; sourceTree = "<group>"; };
-		372F216E22DF515A248C748032F6E3A8 /* TTOpenInAppActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTOpenInAppActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3312CF9E22FB5477188CA79F4A2FABB6 /* UIColorEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorEx.swift; path = Pod/Classes/UIColorEx.swift; sourceTree = "<group>"; };
+		34ECAA6BA4BC31F79980405E6FABCF68 /* M13PDFKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13PDFKit-umbrella.h"; sourceTree = "<group>"; };
+		37F72E952514A9355CB426AA24787AB1 /* TTOpenInAppActivity7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = TTOpenInAppActivity7.png; path = TTOpenInAppActivity/TTOpenInAppActivity7.png; sourceTree = "<group>"; };
+		38C7D43D0DE5FEF5FF0359F87EB7009B /* PDFKDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKDocument.m; path = Classes/Document/PDFKDocument.m; sourceTree = "<group>"; };
 		3A10C356AF5FAE38A6D5C0BC43A30F0A /* Pods-MokhtaserAlNasehaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MokhtaserAlNasehaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3F5F72381B6C0E8048186F9210CA719B /* PDFKPageScrubber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageScrubber.h; path = Classes/View/PDFKPageScrubber.h; sourceTree = "<group>"; };
-		42FAE1BB1B8DE60C68C996ADD2A90473 /* Bookmark@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Bookmark@3x.psd"; path = "Resources/Bookmark@3x.psd"; sourceTree = "<group>"; };
+		3AD828EE6B9AFB5D668A63739A3DCBDA /* SwiftCSV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftCSV.modulemap; sourceTree = "<group>"; };
+		3F1C71CB9C97C4A66E38AF156C6D2ADA /* PDFKThumbQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbQueue.h; path = Classes/Thumbs/PDFKThumbQueue.h; sourceTree = "<group>"; };
+		42BA2B3EAFEE0E4E830D7721CBF1D7F9 /* LiquidFloatingActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidFloatingActionButton.swift; path = Pod/Classes/LiquidFloatingActionButton.swift; sourceTree = "<group>"; };
 		4365D44427CD763384B8DEA2DCED360F /* Pods-MokhtaserAlNasehaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MokhtaserAlNasehaTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		45C4A2A2DD556FCDB4BFE5B1D6D9E2E1 /* PageList@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "PageList@2x.psd"; path = "Resources/PageList@2x.psd"; sourceTree = "<group>"; };
-		45CEE6FFC50BB5998DC1A7CAD25D5E0A /* M13PDFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13PDFKit-dummy.m"; sourceTree = "<group>"; };
-		45FCF9BB984399F8B98CD72696E58E21 /* M13PDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13PDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47167FBA0907D4C556FA529990DDAC26 /* PageList.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = PageList.psd; path = Resources/PageList.psd; sourceTree = "<group>"; };
+		46947F17A76F2C2CD33038FC943A49BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471D97E9AD5EC65E1DB8B8F55BB3C5F6 /* TTOpenInAppActivity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = TTOpenInAppActivity.png; path = TTOpenInAppActivity/TTOpenInAppActivity.png; sourceTree = "<group>"; };
 		47C4F67BC4CF0CE95D7A44C0992424C2 /* Pods-MokhtaserAlNasehaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MokhtaserAlNasehaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48977524076A569AED7D377C19A07EAB /* Pods-MokhtaserAlNasehaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MokhtaserAlNasehaTests-umbrella.h"; sourceTree = "<group>"; };
-		4B904ED0F4AE020CAFF3CA8F88ECB16B /* TTOpenInAppActivity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = TTOpenInAppActivity.png; path = TTOpenInAppActivity/TTOpenInAppActivity.png; sourceTree = "<group>"; };
-		505187E444727699532AB8D19E5DDFC0 /* PDFKDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKDocument.m; path = Classes/Document/PDFKDocument.m; sourceTree = "<group>"; };
+		4AAB842554FA44FF2829733FFD1A5317 /* CGPDFDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGPDFDocument.h; path = Classes/Document/CGPDFDocument.h; sourceTree = "<group>"; };
+		4CA40D28D30CB4F556F0E9037EF92BB8 /* SwiftCSV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSV-prefix.pch"; sourceTree = "<group>"; };
 		50755F7AB1E657CB0317E3588DE54818 /* Pods-MokhtaserAlNaseha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MokhtaserAlNaseha.release.xcconfig"; sourceTree = "<group>"; };
-		51B2176995A84FFC1BECC2EE309FFBF0 /* M13PDFKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13PDFKit-umbrella.h"; sourceTree = "<group>"; };
-		51EC33FF8D54F5BE43221028C53CA2FD /* Thumbs@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Thumbs@3x.psd"; path = "Resources/Thumbs@3x.psd"; sourceTree = "<group>"; };
-		55309E362D90A7B17229E268A218153A /* TTOpenInAppActivity7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "TTOpenInAppActivity7@2x.png"; path = "TTOpenInAppActivity/TTOpenInAppActivity7@2x.png"; sourceTree = "<group>"; };
-		55ECC482CE11F4AE7B9A1B998F9D0C4E /* SwiftCSV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCSV.xcconfig; sourceTree = "<group>"; };
-		5ADF375070EB4E89E6418A51212488D0 /* PDFKPageContentLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageContentLayer.m; path = Classes/View/PDFKPageContentLayer.m; sourceTree = "<group>"; };
+		54A63B8A9E4BF1A4003967E6FD9D29CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599488C2724FEE4484871C583DC32BEA /* TTOpenInAppActivity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "TTOpenInAppActivity@2x.png"; path = "TTOpenInAppActivity/TTOpenInAppActivity@2x.png"; sourceTree = "<group>"; };
+		59CAB52D8F15781DA93D2F499C573919 /* PDFKPageContentLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageContentLayer.h; path = Classes/View/PDFKPageContentLayer.h; sourceTree = "<group>"; };
+		5A94EB06D6341028358C94BBCEC292E8 /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABFCCC067D37CC4503E8CC2EE9F6145 /* PDFKThumbCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbCache.m; path = Classes/Thumbs/PDFKThumbCache.m; sourceTree = "<group>"; };
+		5BEAB11D063EB82CCE9BFC42EF2F28F2 /* TTOpenInAppActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTOpenInAppActivity.m; path = TTOpenInAppActivity/TTOpenInAppActivity.m; sourceTree = "<group>"; };
 		5E33D75EAFBD20386C339D7259CC13D4 /* Pods-MokhtaserAlNasehaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MokhtaserAlNasehaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6014C96943A1825E8962F449BFFF2158 /* M13PDFKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13PDFKit.xcconfig; sourceTree = "<group>"; };
-		61CCF2C0C7FDC0E9E206464026FCEF47 /* TTOpenInAppActivity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "TTOpenInAppActivity@2x.png"; path = "TTOpenInAppActivity/TTOpenInAppActivity@2x.png"; sourceTree = "<group>"; };
+		5FB9FDD54AB48C79939316820DE7C531 /* PDFKThumbCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbCache.h; path = Classes/Thumbs/PDFKThumbCache.h; sourceTree = "<group>"; };
 		62EC375AA84E52351EF24FD16AC4C7C8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		63929B3D7772EAC7DD8ABB56B58785FE /* Pods-MokhtaserAlNasehaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MokhtaserAlNasehaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6404A69C2B9D65046D349864464E9E35 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = SwiftCSV/Parser.swift; sourceTree = "<group>"; };
 		64663CBB9C86FDF72E9E9F261A804B44 /* Pods-MokhtaserAlNaseha-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MokhtaserAlNaseha-acknowledgements.plist"; sourceTree = "<group>"; };
-		671832AB9BC8932D7AC6AD4548A56A20 /* PDFKThumbFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbFetcher.m; path = Classes/Thumbs/PDFKThumbFetcher.m; sourceTree = "<group>"; };
+		65F29C066C4A563FD6D62D48687A42B2 /* PDFKBasicPDFViewerThumbsCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKBasicPDFViewerThumbsCollectionView.m; path = Classes/View/PDFKBasicPDFViewerThumbsCollectionView.m; sourceTree = "<group>"; };
+		661B40ED8E7C92EB17999FB353A244C3 /* TTOpenInAppActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTOpenInAppActivity-prefix.pch"; sourceTree = "<group>"; };
+		66BD8E860EA588CC0F91B78C545CACF8 /* Bookmark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmark@2x.png"; path = "Resources/Bookmark@2x.png"; sourceTree = "<group>"; };
 		671EF3969FAFDC166CC13FE56D2BC9BC /* Pods-MokhtaserAlNasehaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MokhtaserAlNasehaUITests-resources.sh"; sourceTree = "<group>"; };
-		673F288146EB7874292DE8CA94C46C86 /* ResourceBundle-M13PDFKitResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-M13PDFKitResources-Info.plist"; sourceTree = "<group>"; };
-		68CDD52DA825F469672817682A615695 /* PDFKBasicPDFViewer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKBasicPDFViewer.m; path = Classes/View/PDFKBasicPDFViewer.m; sourceTree = "<group>"; };
-		6AEFE4E8E5976F0BFE229CAEF6C99E7F /* Thumbs.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Thumbs.psd; path = Resources/Thumbs.psd; sourceTree = "<group>"; };
-		6D28900019D8F723C7C093027EBB2673 /* SwiftCSV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSV-umbrella.h"; sourceTree = "<group>"; };
-		705C27D65E141A60916D38937328F1A1 /* PDFKBasicPDFViewerThumbsCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKBasicPDFViewerThumbsCollectionView.m; path = Classes/View/PDFKBasicPDFViewerThumbsCollectionView.m; sourceTree = "<group>"; };
-		720C2EC0E63A76EDA9454FB7C3E039D5 /* PDFKThumbFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbFetcher.h; path = Classes/Thumbs/PDFKThumbFetcher.h; sourceTree = "<group>"; };
-		7476D86BB576779969BDDF0A6106BC4E /* Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Description.swift; path = SwiftCSV/Description.swift; sourceTree = "<group>"; };
-		7BD9407255AAA2B03FBFB86EAFCB3167 /* ParserHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParserHelpers.swift; path = SwiftCSV/ParserHelpers.swift; sourceTree = "<group>"; };
-		7D3170B9AE3468DC4F8D4D83413F58EB /* Thumbs@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Thumbs@3x.png"; path = "Resources/Thumbs@3x.png"; sourceTree = "<group>"; };
-		7D4430C3496DCA93638AFD39A0FA2987 /* Bookmarked.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Bookmarked.png; path = Resources/Bookmarked.png; sourceTree = "<group>"; };
-		85351094083E66D7D339837329B310C8 /* Bookmarked@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Bookmarked@3x.psd"; path = "Resources/Bookmarked@3x.psd"; sourceTree = "<group>"; };
-		858879CD4A4FC1A79E69D3939905F748 /* TTOpenInAppActivity7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = TTOpenInAppActivity7.png; path = TTOpenInAppActivity/TTOpenInAppActivity7.png; sourceTree = "<group>"; };
+		69911EE1C6A25AEF680099F092E091C0 /* LiquidFloatingActionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiquidFloatingActionButton-dummy.m"; sourceTree = "<group>"; };
+		6A23C3FC7775DA30C7F530CC933C63FC /* PDFKThumbRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbRequest.m; path = Classes/Thumbs/PDFKThumbRequest.m; sourceTree = "<group>"; };
+		6DCF06B7A7162F3E2B8108CE348455DA /* Bookmarked@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Bookmarked@2x.psd"; path = "Resources/Bookmarked@2x.psd"; sourceTree = "<group>"; };
+		6E1D85ED8659955156C12C9FE823346D /* LiquidFloatingActionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LiquidFloatingActionButton.modulemap; sourceTree = "<group>"; };
+		70E87626F3C8E4C4916D111827DCA2A7 /* Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Description.swift; path = SwiftCSV/Description.swift; sourceTree = "<group>"; };
+		70EEDDC0044B06155FAC1D9F1E9BEBD2 /* PDFKDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKDocument.h; path = Classes/Document/PDFKDocument.h; sourceTree = "<group>"; };
+		7243AB9FB680937626DEF0849A343A6B /* Bookmarked.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Bookmarked.psd; path = Resources/Bookmarked.psd; sourceTree = "<group>"; };
+		74256D7C4E177C5D902E089DD2A3E6A6 /* ResourceBundle-M13PDFKitResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-M13PDFKitResources-Info.plist"; sourceTree = "<group>"; };
+		7937DA66267E7E25C79B213F7BDEED6F /* Thumbs@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Thumbs@3x.psd"; path = "Resources/Thumbs@3x.psd"; sourceTree = "<group>"; };
+		7B95951688AEFFE0B7F5BE5EFB487851 /* PDFKPageContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageContentView.m; path = Classes/View/PDFKPageContentView.m; sourceTree = "<group>"; };
+		7E13B59D0A14C0967E7135B07CC027BD /* TTOpenInAppActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTOpenInAppActivity.h; path = TTOpenInAppActivity/TTOpenInAppActivity.h; sourceTree = "<group>"; };
+		7FAE0E33377F10A0932DD5777376D0C2 /* PDFKThumbView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbView.h; path = Classes/Thumbs/PDFKThumbView.h; sourceTree = "<group>"; };
+		7FDAA91E4B7A7608669CB854C5A0501C /* PDFKBasicPDFViewerSinglePageCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKBasicPDFViewerSinglePageCollectionView.h; path = Classes/View/PDFKBasicPDFViewerSinglePageCollectionView.h; sourceTree = "<group>"; };
+		8111746F2CE55F9F771D9EFC60DB037D /* Pods_MokhtaserAlNaseha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNaseha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		868336D582CA8455B037BF82494C8709 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B938AE5BD7AEC8A2B81518555E93DB /* Bookmarked.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Bookmarked.png; path = Resources/Bookmarked.png; sourceTree = "<group>"; };
 		86EA00626DCE21EA4EB9687497511905 /* Pods-MokhtaserAlNasehaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MokhtaserAlNasehaTests.modulemap"; sourceTree = "<group>"; };
-		8BB0CE93DC5120D493C7BD652040D95A /* CGPDFDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGPDFDocument.h; path = Classes/Document/CGPDFDocument.h; sourceTree = "<group>"; };
-		8BDFE030120EAB2657D9D35EE2B727B4 /* PDFKPageContentLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageContentLayer.h; path = Classes/View/PDFKPageContentLayer.h; sourceTree = "<group>"; };
+		8706F8E9E2C477B8A6D9EE714AE208B0 /* SwiftCSV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSV-umbrella.h"; sourceTree = "<group>"; };
+		88057D36818F9555CE7234435ADA29E7 /* PageList.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = PageList.psd; path = Resources/PageList.psd; sourceTree = "<group>"; };
+		8AC391A1CE6DFD1A263223AF9DA9B538 /* PDFKBasicPDFViewer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKBasicPDFViewer.m; path = Classes/View/PDFKBasicPDFViewer.m; sourceTree = "<group>"; };
 		8C1035C272B3FC3D9D9E564E8609D40E /* Pods-MokhtaserAlNaseha-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MokhtaserAlNaseha-umbrella.h"; sourceTree = "<group>"; };
+		8DD30F336912BECAE63D8300B464F1FE /* PDFKPageScrubber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageScrubber.m; path = Classes/View/PDFKPageScrubber.m; sourceTree = "<group>"; };
+		8DED79315420EB36E3AF04BC28058B1E /* PageList@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "PageList@3x.png"; path = "Resources/PageList@3x.png"; sourceTree = "<group>"; };
 		8E68D7C6350BAEFAA685EAB0813FFCC4 /* Pods-MokhtaserAlNasehaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MokhtaserAlNasehaTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F16821E51E8EAB23ED1D6FA70377BB9 /* M13PDFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13PDFKit-prefix.pch"; sourceTree = "<group>"; };
+		8FDD79DAECBCCE2DFBB8DEBABBF06EE3 /* SwiftCSV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCSV-dummy.m"; sourceTree = "<group>"; };
+		93334F432E97F63767358ADD70191327 /* ArrayEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayEx.swift; path = Pod/Classes/ArrayEx.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94317331809E60C5556126B5CB1B43E1 /* TTOpenInAppActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTOpenInAppActivity.xcconfig; sourceTree = "<group>"; };
-		960EC6202C944484072EEC7DC657AE43 /* SwiftCSV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCSV-dummy.m"; sourceTree = "<group>"; };
 		9AF5ED0FE9A3F968362D6E231A464946 /* Pods-MokhtaserAlNasehaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MokhtaserAlNasehaTests-frameworks.sh"; sourceTree = "<group>"; };
-		9C1F96BD608B1A045C6EB855306F41DD /* PDFKThumbCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbCache.h; path = Classes/Thumbs/PDFKThumbCache.h; sourceTree = "<group>"; };
+		9C550791176320652B113083682B71D2 /* TTOpenInAppActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTOpenInAppActivity-dummy.m"; sourceTree = "<group>"; };
 		9F53B987CACC7322240296AF1639B45C /* Pods-MokhtaserAlNasehaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MokhtaserAlNasehaUITests-dummy.m"; sourceTree = "<group>"; };
-		A0A2315CD2AE808B7FB2A1A9F196DC86 /* Bookmark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmark@2x.png"; path = "Resources/Bookmark@2x.png"; sourceTree = "<group>"; };
-		A20E3A389A6CB0BD08C24D076F928DF1 /* Bookmarked@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Bookmarked@2x.psd"; path = "Resources/Bookmarked@2x.psd"; sourceTree = "<group>"; };
-		A2E9BA37B4D0923C5E550A148A7650A2 /* PDFKPageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageContentView.h; path = Classes/View/PDFKPageContentView.h; sourceTree = "<group>"; };
+		9F69763DD7740178B96127C13BA9E7F3 /* PDFKThumbFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbFetcher.m; path = Classes/Thumbs/PDFKThumbFetcher.m; sourceTree = "<group>"; };
+		A12D3DEA510DDE36A9BA257C33289D48 /* TTOpenInAppActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTOpenInAppActivity.xcconfig; sourceTree = "<group>"; };
+		A166CAA3DF3AAEE05B20D1B43F0BD7AC /* M13PDFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13PDFKit-dummy.m"; sourceTree = "<group>"; };
+		A2F84EEA5BC437B1BD8BF6F785A8D184 /* Pods_MokhtaserAlNasehaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNasehaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43F0B9919F1F68545D56698DC3A1303 /* Pods-MokhtaserAlNaseha.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MokhtaserAlNaseha.modulemap"; sourceTree = "<group>"; };
-		A49118E6A6ED8EE094902B42634B61C4 /* TTOpenInAppActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTOpenInAppActivity-dummy.m"; sourceTree = "<group>"; };
-		AC65F21FFCC59D4851F38574BBD19199 /* PDFKThumbQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbQueue.h; path = Classes/Thumbs/PDFKThumbQueue.h; sourceTree = "<group>"; };
-		ACDF2D53230782AC6290DCF74C886AA9 /* PDFKThumbRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbRenderer.m; path = Classes/Thumbs/PDFKThumbRenderer.m; sourceTree = "<group>"; };
-		AD654D701EE74139CA3E59388A77721E /* PageList@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "PageList@3x.psd"; path = "Resources/PageList@3x.psd"; sourceTree = "<group>"; };
-		AF5055CD7208E7D49781936FEE9CB04C /* String+Lines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Lines.swift"; path = "SwiftCSV/String+Lines.swift"; sourceTree = "<group>"; };
-		B3163DF0615805E43986E4BAE80EEA5C /* Bookmarked@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmarked@2x.png"; path = "Resources/Bookmarked@2x.png"; sourceTree = "<group>"; };
-		B3344CB886F248CC6C16E0C6BB1F6C18 /* M13PDFKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M13PDFKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89896D041DC76854100AD69D29AAE79 /* M13PDFKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M13PDFKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7BE7F90E75A6A18D8EAFEAEAEF4E70 /* Bookmark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmark@3x.png"; path = "Resources/Bookmark@3x.png"; sourceTree = "<group>"; };
+		ACCB46B39A3868CCEA1069BAB64D6222 /* M13PDFKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13PDFKit.xcconfig; sourceTree = "<group>"; };
+		AE1C9ECCED3D0535A84DA5460795E3C9 /* Thumbs@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Thumbs@2x.psd"; path = "Resources/Thumbs@2x.psd"; sourceTree = "<group>"; };
+		AFF164F12E793831D30E868833324F2F /* SimpleCircleLiquidEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleCircleLiquidEngine.swift; path = Pod/Classes/SimpleCircleLiquidEngine.swift; sourceTree = "<group>"; };
 		B34681BE026D1ACB87566A9CA0562A0E /* Pods-MokhtaserAlNasehaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MokhtaserAlNasehaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B37ED45FF4973E9EED30FDB091DE7A15 /* M13PDFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13PDFKit-prefix.pch"; sourceTree = "<group>"; };
-		B3E3F162B7DF879E8154D8161D0BD7E4 /* PDFKBasicPDFViewer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKBasicPDFViewer.h; path = Classes/View/PDFKBasicPDFViewer.h; sourceTree = "<group>"; };
-		BAD10BD5BFE6A5E5D9CE3982F2E5514E /* PDFKThumbView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbView.h; path = Classes/Thumbs/PDFKThumbView.h; sourceTree = "<group>"; };
-		BF5F03A910485DE6A82B8CD9EBF9370B /* PDFKBasicPDFViewerSinglePageCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKBasicPDFViewerSinglePageCollectionView.m; path = Classes/View/PDFKBasicPDFViewerSinglePageCollectionView.m; sourceTree = "<group>"; };
-		C955AC81858E1467485C16A43A8F9D76 /* PDFKBasicPDFViewerSinglePageCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKBasicPDFViewerSinglePageCollectionView.h; path = Classes/View/PDFKBasicPDFViewerSinglePageCollectionView.h; sourceTree = "<group>"; };
+		B6A98F50748152DEA05BFD1CFA7C358A /* LiquidUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidUtil.swift; path = Pod/Classes/LiquidUtil.swift; sourceTree = "<group>"; };
+		B9F55058B01B675BCD5652154955DA63 /* Bookmark@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Bookmark@3x.psd"; path = "Resources/Bookmark@3x.psd"; sourceTree = "<group>"; };
+		BB3B604FD21B278E5D5BBD3D3A536391 /* CGPDFDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGPDFDocument.m; path = Classes/Document/CGPDFDocument.m; sourceTree = "<group>"; };
+		BD0A91B6F216F665FAD2AE710BE80C23 /* LiquidFloatingActionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidFloatingActionButton-prefix.pch"; sourceTree = "<group>"; };
+		C0A7F96E5DA68357BE02AA287F695A64 /* Bookmarked@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmarked@3x.png"; path = "Resources/Bookmarked@3x.png"; sourceTree = "<group>"; };
+		C2F61FDBEDA589099DD9B859B7B4F438 /* PDFKBasicPDFViewerSinglePageCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKBasicPDFViewerSinglePageCollectionView.m; path = Classes/View/PDFKBasicPDFViewerSinglePageCollectionView.m; sourceTree = "<group>"; };
+		C34D924D1033A7D8E020301CC43BDEE6 /* Thumbs@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Thumbs@2x.png"; path = "Resources/Thumbs@2x.png"; sourceTree = "<group>"; };
+		C4B613A3BB503CFD5C858CB445BA2CE0 /* M13PDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13PDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6963FD03386845767B7D45067FCBE26 /* M13PDFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = M13PDFKit.modulemap; sourceTree = "<group>"; };
+		CA2EFF84C9A6592759826F568239572D /* PageList@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "PageList@2x.psd"; path = "Resources/PageList@2x.psd"; sourceTree = "<group>"; };
+		CB81A721CB0CA2C4077772D8292893FA /* PageList@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "PageList@3x.psd"; path = "Resources/PageList@3x.psd"; sourceTree = "<group>"; };
+		CBBF0842A8B02561D66CC2C334AB443F /* PDFKBasicPDFViewer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKBasicPDFViewer.h; path = Classes/View/PDFKBasicPDFViewer.h; sourceTree = "<group>"; };
 		CC1ADFE37F036E2EF35FD2CA4B73D5D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CFC81CE03D604A73D91E4FFD55217FF4 /* PageList@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "PageList@2x.png"; path = "Resources/PageList@2x.png"; sourceTree = "<group>"; };
-		D1284E073EEAED5792CC2F6059B089B2 /* Pods_MokhtaserAlNaseha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNaseha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C7A386EB08FE52F9325E8BE93767B7 /* Bookmarked@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmarked@3x.png"; path = "Resources/Bookmarked@3x.png"; sourceTree = "<group>"; };
-		D41DBFA3EBBCDA6D66504042366AB84D /* Bookmark@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Bookmark@2x.psd"; path = "Resources/Bookmark@2x.psd"; sourceTree = "<group>"; };
+		D0677AEE6BEF0DCB38037886170769AD /* LiquidFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiquidFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54469FDFD43131EBD4C9503ED186B4E /* TTOpenInAppActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTOpenInAppActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65FE79BB88843BE3E575D09A2E198FA /* Pods-MokhtaserAlNaseha-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MokhtaserAlNaseha-dummy.m"; sourceTree = "<group>"; };
-		D81569C37F8C28C25350C55F68F34822 /* Pods_MokhtaserAlNasehaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNasehaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D91DA5A33B3AE4174FCC10662A42A984 /* PDFKThumbQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbQueue.m; path = Classes/Thumbs/PDFKThumbQueue.m; sourceTree = "<group>"; };
-		D92F19883AD65B6496DFAE33FAF1F0DC /* TTOpenInAppActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTOpenInAppActivity.m; path = TTOpenInAppActivity/TTOpenInAppActivity.m; sourceTree = "<group>"; };
-		DFD8568C7FC2FC59053D5562E08D2C11 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = SwiftCSV/Parser.swift; sourceTree = "<group>"; };
+		D95238C862E05C394E337BAE986C2B35 /* PDFKThumbQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbQueue.m; path = Classes/Thumbs/PDFKThumbQueue.m; sourceTree = "<group>"; };
+		DE389927F2FD8302576BFA2660F2039C /* LiquidFloatingActionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidFloatingActionButton-umbrella.h"; sourceTree = "<group>"; };
+		DE513EE3C50A345340138F688929A14D /* Bookmark@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Bookmark@2x.psd"; path = "Resources/Bookmark@2x.psd"; sourceTree = "<group>"; };
 		E1BE924690511D8E8C1D619CF2413514 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2EFB189C4B09A549BFA7584B7DB751D /* Bookmark.psd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Bookmark.psd; path = Resources/Bookmark.psd; sourceTree = "<group>"; };
-		E4FC194ECD3D97C60B32E597719905A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39B3DA83E263F689BA0F1A94C5779E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E62E13B94D28EEB2420901B387460DE6 /* Pods-MokhtaserAlNasehaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MokhtaserAlNasehaUITests-frameworks.sh"; sourceTree = "<group>"; };
-		E735FF18465A0199466ED3F7161F7EAD /* PDFKBasicPDFViewerThumbsCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKBasicPDFViewerThumbsCollectionView.h; path = Classes/View/PDFKBasicPDFViewerThumbsCollectionView.h; sourceTree = "<group>"; };
 		E7EE6891999053AE90E56AFD80A8160B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E805AF25143FEFC93DD220D536357077 /* PageList.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = PageList.png; path = Resources/PageList.png; sourceTree = "<group>"; };
-		E972CC4BDB3D6370F911B1DCFF61EE6B /* SwiftCSV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftCSV.modulemap; sourceTree = "<group>"; };
-		EB747BDF6E150F35CC9C5F6590E147B6 /* Bookmark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmark@3x.png"; path = "Resources/Bookmark@3x.png"; sourceTree = "<group>"; };
-		EDEDB0C23797465029E87108AB86D9C8 /* Bookmark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Bookmark.png; path = Resources/Bookmark.png; sourceTree = "<group>"; };
+		E7F3E2A362B2F54D69E8AE9863F3643B /* LiquittableCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquittableCircle.swift; path = Pod/Classes/LiquittableCircle.swift; sourceTree = "<group>"; };
+		E978148E554DB318F6C50DE09CE495F1 /* PDFKThumbFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbFetcher.h; path = Classes/Thumbs/PDFKThumbFetcher.h; sourceTree = "<group>"; };
+		E9F3811024BA9D7532A70793D220934C /* TTOpenInAppActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TTOpenInAppActivity.modulemap; sourceTree = "<group>"; };
+		EA4D81F3C89BE02F5C446411191E4061 /* Thumbs.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Thumbs.png; path = Resources/Thumbs.png; sourceTree = "<group>"; };
+		ECB71A0F69851F3925C75F11DECAEA83 /* TTOpenInAppActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTOpenInAppActivity-umbrella.h"; sourceTree = "<group>"; };
+		EDE3402C91D2C7D7A5FC6BB36FD77997 /* Thumbs@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Thumbs@3x.png"; path = "Resources/Thumbs@3x.png"; sourceTree = "<group>"; };
+		EEB54D1AAE8ACEA35586388F91238F30 /* PageList.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = PageList.png; path = Resources/PageList.png; sourceTree = "<group>"; };
+		F165FB70753DEE7D4157EA5BC843999E /* PDFKPageScrubber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageScrubber.h; path = Classes/View/PDFKPageScrubber.h; sourceTree = "<group>"; };
+		F51CA69542819ACB821158FFE2404069 /* CSV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = SwiftCSV/CSV.swift; sourceTree = "<group>"; };
+		F5211A2BF29B226380FD9BBFC3A4D967 /* SwiftCSV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCSV.xcconfig; sourceTree = "<group>"; };
 		F5A9966200EF52BCA41BA719DB699832 /* TTOpenInAppActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTOpenInAppActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5DED19DFF5689BD010A6EC28759D647 /* Pods_MokhtaserAlNasehaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNasehaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F89EDF6E1EA5AC0F4DFF950E919CDBFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A036A0F43CF1C7A870B0F49CE51032 /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = Pod/Classes/CGRectEx.swift; sourceTree = "<group>"; };
 		F8A2F6D993EC45EB84C64B3B463B68F4 /* Pods-MokhtaserAlNaseha-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MokhtaserAlNaseha-resources.sh"; sourceTree = "<group>"; };
-		F9701AEB11916BACDFB1441F60C775B7 /* PDFKPageScrubber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageScrubber.m; path = Classes/View/PDFKPageScrubber.m; sourceTree = "<group>"; };
+		F8C48418B2CB4F6C0581050EDDCFF0B8 /* Bookmark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Bookmark.png; path = Resources/Bookmark.png; sourceTree = "<group>"; };
 		FACA446557533B06D3D66E47D5FE0BD7 /* Pods-MokhtaserAlNasehaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MokhtaserAlNasehaTests-dummy.m"; sourceTree = "<group>"; };
 		FB153C8053E0C0B947FB35DD1E3D8915 /* Pods-MokhtaserAlNasehaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MokhtaserAlNasehaUITests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -296,11 +329,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57C3423106B85B8DBA4B7C601225F0F4 /* Frameworks */ = {
+		68F6EC99D6740686C4802F2C69A003BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5473CE09C9D575422D77A1F2994A25AE /* Foundation.framework in Frameworks */,
+				EAC4522ECD9EDE06632C34321215099E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,28 +355,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9F74A9E83D488E74CCF6D86437357DD /* Frameworks */ = {
+		A5D5A9D3E7656F5939F682C3A22F5C5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72267C07276C96949D774816D1283B48 /* Foundation.framework in Frameworks */,
+				BAEAF2FF023499FB59C034E3E5BDF254 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7FD2891FF7F27B5CBC6F9BF067D556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE36779F2D1A1F776DD350B0BF79DA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A430083B25FAA91B2CA226871EB7A85 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4B904ED0F4AE020CAFF3CA8F88ECB16B /* TTOpenInAppActivity.png */,
-				858879CD4A4FC1A79E69D3939905F748 /* TTOpenInAppActivity7.png */,
-				55309E362D90A7B17229E268A218153A /* TTOpenInAppActivity7@2x.png */,
-				61CCF2C0C7FDC0E9E206464026FCEF47 /* TTOpenInAppActivity@2x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		0EF7F82F8ADC5651E963776A195EA93B /* Pods-MokhtaserAlNasehaTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,6 +410,32 @@
 			path = "Target Support Files/Pods-MokhtaserAlNaseha";
 			sourceTree = "<group>";
 		};
+		24C9B51E58141BACBDE0F33F73BD0203 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				868336D582CA8455B037BF82494C8709 /* Info.plist */,
+				C6963FD03386845767B7D45067FCBE26 /* M13PDFKit.modulemap */,
+				ACCB46B39A3868CCEA1069BAB64D6222 /* M13PDFKit.xcconfig */,
+				A166CAA3DF3AAEE05B20D1B43F0BD7AC /* M13PDFKit-dummy.m */,
+				8F16821E51E8EAB23ED1D6FA70377BB9 /* M13PDFKit-prefix.pch */,
+				34ECAA6BA4BC31F79980405E6FABCF68 /* M13PDFKit-umbrella.h */,
+				74256D7C4E177C5D902E089DD2A3E6A6 /* ResourceBundle-M13PDFKitResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13PDFKit";
+			sourceTree = "<group>";
+		};
+		2857BC21ECC560F6FE1F2F547D8A1D96 /* TTOpenInAppActivity */ = {
+			isa = PBXGroup;
+			children = (
+				7E13B59D0A14C0967E7135B07CC027BD /* TTOpenInAppActivity.h */,
+				5BEAB11D063EB82CCE9BFC42EF2F28F2 /* TTOpenInAppActivity.m */,
+				B563C6A350751F74437BEBD4B470BA3B /* Resources */,
+				B4340FCFFC6548DD5E9CE3917DB5B1D9 /* Support Files */,
+			);
+			path = TTOpenInAppActivity;
+			sourceTree = "<group>";
+		};
 		316AD931D129D85C646E5A86EE4AC502 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +448,51 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		3179C6D0AFD0DF3A041745B1E0A7F052 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8C48418B2CB4F6C0581050EDDCFF0B8 /* Bookmark.png */,
+				2F5E92A904764C84164CB2268F3FC78E /* Bookmark.psd */,
+				66BD8E860EA588CC0F91B78C545CACF8 /* Bookmark@2x.png */,
+				DE513EE3C50A345340138F688929A14D /* Bookmark@2x.psd */,
+				AB7BE7F90E75A6A18D8EAFEAEAEF4E70 /* Bookmark@3x.png */,
+				B9F55058B01B675BCD5652154955DA63 /* Bookmark@3x.psd */,
+				86B938AE5BD7AEC8A2B81518555E93DB /* Bookmarked.png */,
+				7243AB9FB680937626DEF0849A343A6B /* Bookmarked.psd */,
+				1A0FAE94BE5FDF3DE6D0C1D4DD68001F /* Bookmarked@2x.png */,
+				6DCF06B7A7162F3E2B8108CE348455DA /* Bookmarked@2x.psd */,
+				C0A7F96E5DA68357BE02AA287F695A64 /* Bookmarked@3x.png */,
+				1C4041F307B1A7CF50B216D3420CCC07 /* Bookmarked@3x.psd */,
+				EEB54D1AAE8ACEA35586388F91238F30 /* PageList.png */,
+				88057D36818F9555CE7234435ADA29E7 /* PageList.psd */,
+				16EBD345CA4BF34A741F9E3554960384 /* PageList@2x.png */,
+				CA2EFF84C9A6592759826F568239572D /* PageList@2x.psd */,
+				8DED79315420EB36E3AF04BC28058B1E /* PageList@3x.png */,
+				CB81A721CB0CA2C4077772D8292893FA /* PageList@3x.psd */,
+				EA4D81F3C89BE02F5C446411191E4061 /* Thumbs.png */,
+				2CB3A998D0B67D2AAC07B0476F63ADD6 /* Thumbs.psd */,
+				C34D924D1033A7D8E020301CC43BDEE6 /* Thumbs@2x.png */,
+				AE1C9ECCED3D0535A84DA5460795E3C9 /* Thumbs@2x.psd */,
+				EDE3402C91D2C7D7A5FC6BB36FD77997 /* Thumbs@3x.png */,
+				7937DA66267E7E25C79B213F7BDEED6F /* Thumbs@3x.psd */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E04BDAFC045A6A9FD1D46A14D63342E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46947F17A76F2C2CD33038FC943A49BF /* Info.plist */,
+				6E1D85ED8659955156C12C9FE823346D /* LiquidFloatingActionButton.modulemap */,
+				259467BE99A3203A9137071E95009661 /* LiquidFloatingActionButton.xcconfig */,
+				69911EE1C6A25AEF680099F092E091C0 /* LiquidFloatingActionButton-dummy.m */,
+				BD0A91B6F216F665FAD2AE710BE80C23 /* LiquidFloatingActionButton-prefix.pch */,
+				DE389927F2FD8302576BFA2660F2039C /* LiquidFloatingActionButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LiquidFloatingActionButton";
+			sourceTree = "<group>";
+		};
 		3EE6924175686647D74915279543A7D3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,35 +501,6 @@
 				7790CA4E0F868D6DFCF879AB3A4F53E2 /* Pods-MokhtaserAlNasehaUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		44A19E37837C6CA4F2EE018121C13C9D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F89EDF6E1EA5AC0F4DFF950E919CDBFC /* Info.plist */,
-				335BDB74F7D0ADD19C8DD761FC97A143 /* M13PDFKit.modulemap */,
-				6014C96943A1825E8962F449BFFF2158 /* M13PDFKit.xcconfig */,
-				45CEE6FFC50BB5998DC1A7CAD25D5E0A /* M13PDFKit-dummy.m */,
-				B37ED45FF4973E9EED30FDB091DE7A15 /* M13PDFKit-prefix.pch */,
-				51B2176995A84FFC1BECC2EE309FFBF0 /* M13PDFKit-umbrella.h */,
-				673F288146EB7874292DE8CA94C46C86 /* ResourceBundle-M13PDFKitResources-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/M13PDFKit";
-			sourceTree = "<group>";
-		};
-		70157BB2D98BE316D923C46331D9FEA2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E4FC194ECD3D97C60B32E597719905A8 /* Info.plist */,
-				00503A7AA1F32F37ED78777A02293822 /* TTOpenInAppActivity.modulemap */,
-				94317331809E60C5556126B5CB1B43E1 /* TTOpenInAppActivity.xcconfig */,
-				A49118E6A6ED8EE094902B42634B61C4 /* TTOpenInAppActivity-dummy.m */,
-				0BDFB917E3CD2064F72557F6C82B4E5B /* TTOpenInAppActivity-prefix.pch */,
-				28ED8BA9C78A0F296CA5021D03115D0D /* TTOpenInAppActivity-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TTOpenInAppActivity";
 			sourceTree = "<group>";
 		};
 		7790CA4E0F868D6DFCF879AB3A4F53E2 /* Pods-MokhtaserAlNasehaUITests */ = {
@@ -449,20 +521,6 @@
 			path = "Target Support Files/Pods-MokhtaserAlNasehaUITests";
 			sourceTree = "<group>";
 		};
-		7AEB67A0C12E052197491C67D585AAD5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				45FCF9BB984399F8B98CD72696E58E21 /* M13PDFKit.framework */,
-				B3344CB886F248CC6C16E0C6BB1F6C18 /* M13PDFKitResources.bundle */,
-				D1284E073EEAED5792CC2F6059B089B2 /* Pods_MokhtaserAlNaseha.framework */,
-				F5DED19DFF5689BD010A6EC28759D647 /* Pods_MokhtaserAlNasehaTests.framework */,
-				D81569C37F8C28C25350C55F68F34822 /* Pods_MokhtaserAlNasehaUITests.framework */,
-				248A40FB3BB771BDF5DFE5DB7AE74B1E /* SwiftCSV.framework */,
-				372F216E22DF515A248C748032F6E3A8 /* TTOpenInAppActivity.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7C0B27A9E3EA4F44DA0CCB6FA1E5E99D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -477,146 +535,177 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				7C0B27A9E3EA4F44DA0CCB6FA1E5E99D /* Frameworks */,
-				A038D790E2C062EED6354E30269C1C0D /* Pods */,
-				7AEB67A0C12E052197491C67D585AAD5 /* Products */,
+				FA0F68EB54E1F85C3C404D33DB358FAA /* Pods */,
+				DBAAE3480FAE35C5F0F96D3456DC7D8E /* Products */,
 				3EE6924175686647D74915279543A7D3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		887640FA08F57D533CE17963AFA72172 /* M13PDFKit */ = {
+		A0EFE6A681F3FFFA1E787D7984B93FD6 /* M13PDFKit */ = {
 			isa = PBXGroup;
 			children = (
-				8BB0CE93DC5120D493C7BD652040D95A /* CGPDFDocument.h */,
-				26C181B154A9D48A7D69EBF0A7937A0E /* CGPDFDocument.m */,
-				B3E3F162B7DF879E8154D8161D0BD7E4 /* PDFKBasicPDFViewer.h */,
-				68CDD52DA825F469672817682A615695 /* PDFKBasicPDFViewer.m */,
-				C955AC81858E1467485C16A43A8F9D76 /* PDFKBasicPDFViewerSinglePageCollectionView.h */,
-				BF5F03A910485DE6A82B8CD9EBF9370B /* PDFKBasicPDFViewerSinglePageCollectionView.m */,
-				E735FF18465A0199466ED3F7161F7EAD /* PDFKBasicPDFViewerThumbsCollectionView.h */,
-				705C27D65E141A60916D38937328F1A1 /* PDFKBasicPDFViewerThumbsCollectionView.m */,
-				2B76338DA76415564FB14EF356FECF97 /* PDFKDocument.h */,
-				505187E444727699532AB8D19E5DDFC0 /* PDFKDocument.m */,
-				21FFEEE40E0FBF57F75E81B721531932 /* PDFKPageContent.h */,
-				09B93E74907BBB747443C0A3B7BF53EF /* PDFKPageContent.m */,
-				8BDFE030120EAB2657D9D35EE2B727B4 /* PDFKPageContentLayer.h */,
-				5ADF375070EB4E89E6418A51212488D0 /* PDFKPageContentLayer.m */,
-				A2E9BA37B4D0923C5E550A148A7650A2 /* PDFKPageContentView.h */,
-				0D4AEF1155163D7ACBCF93817C6A88FD /* PDFKPageContentView.m */,
-				3F5F72381B6C0E8048186F9210CA719B /* PDFKPageScrubber.h */,
-				F9701AEB11916BACDFB1441F60C775B7 /* PDFKPageScrubber.m */,
-				9C1F96BD608B1A045C6EB855306F41DD /* PDFKThumbCache.h */,
-				102E3199C39D968AFEBA88847D46BC15 /* PDFKThumbCache.m */,
-				720C2EC0E63A76EDA9454FB7C3E039D5 /* PDFKThumbFetcher.h */,
-				671832AB9BC8932D7AC6AD4548A56A20 /* PDFKThumbFetcher.m */,
-				AC65F21FFCC59D4851F38574BBD19199 /* PDFKThumbQueue.h */,
-				D91DA5A33B3AE4174FCC10662A42A984 /* PDFKThumbQueue.m */,
-				00DFDD228DB3F764355ABC93836A1851 /* PDFKThumbRenderer.h */,
-				ACDF2D53230782AC6290DCF74C886AA9 /* PDFKThumbRenderer.m */,
-				0F1CD6B137C3A6ECFFD7223A095B7423 /* PDFKThumbRequest.h */,
-				14A59D70A044F07934A97AB7BEE4E587 /* PDFKThumbRequest.m */,
-				BAD10BD5BFE6A5E5D9CE3982F2E5514E /* PDFKThumbView.h */,
-				2E3198C2AA44A6EF4BEB4C5DC914F61E /* PDFKThumbView.m */,
-				B1FF794F4918244A7F9D1774C8986CC2 /* Resources */,
-				44A19E37837C6CA4F2EE018121C13C9D /* Support Files */,
+				4AAB842554FA44FF2829733FFD1A5317 /* CGPDFDocument.h */,
+				BB3B604FD21B278E5D5BBD3D3A536391 /* CGPDFDocument.m */,
+				CBBF0842A8B02561D66CC2C334AB443F /* PDFKBasicPDFViewer.h */,
+				8AC391A1CE6DFD1A263223AF9DA9B538 /* PDFKBasicPDFViewer.m */,
+				7FDAA91E4B7A7608669CB854C5A0501C /* PDFKBasicPDFViewerSinglePageCollectionView.h */,
+				C2F61FDBEDA589099DD9B859B7B4F438 /* PDFKBasicPDFViewerSinglePageCollectionView.m */,
+				236321446445E149435518B8930F80D3 /* PDFKBasicPDFViewerThumbsCollectionView.h */,
+				65F29C066C4A563FD6D62D48687A42B2 /* PDFKBasicPDFViewerThumbsCollectionView.m */,
+				70EEDDC0044B06155FAC1D9F1E9BEBD2 /* PDFKDocument.h */,
+				38C7D43D0DE5FEF5FF0359F87EB7009B /* PDFKDocument.m */,
+				14A729D188BB63307F11974BAD131334 /* PDFKPageContent.h */,
+				1E139734B0A2CCDC11D85C5B1559CFE0 /* PDFKPageContent.m */,
+				59CAB52D8F15781DA93D2F499C573919 /* PDFKPageContentLayer.h */,
+				283198F3E11571AC1A7CFEA05033C49D /* PDFKPageContentLayer.m */,
+				2E0F96D5F0BF497A926831068BD781A9 /* PDFKPageContentView.h */,
+				7B95951688AEFFE0B7F5BE5EFB487851 /* PDFKPageContentView.m */,
+				F165FB70753DEE7D4157EA5BC843999E /* PDFKPageScrubber.h */,
+				8DD30F336912BECAE63D8300B464F1FE /* PDFKPageScrubber.m */,
+				5FB9FDD54AB48C79939316820DE7C531 /* PDFKThumbCache.h */,
+				5ABFCCC067D37CC4503E8CC2EE9F6145 /* PDFKThumbCache.m */,
+				E978148E554DB318F6C50DE09CE495F1 /* PDFKThumbFetcher.h */,
+				9F69763DD7740178B96127C13BA9E7F3 /* PDFKThumbFetcher.m */,
+				3F1C71CB9C97C4A66E38AF156C6D2ADA /* PDFKThumbQueue.h */,
+				D95238C862E05C394E337BAE986C2B35 /* PDFKThumbQueue.m */,
+				05765A0C5553691098BD4F5D1556275A /* PDFKThumbRenderer.h */,
+				1D5FFDA91946F6E40006BE3EBEABDD08 /* PDFKThumbRenderer.m */,
+				1FBE4A7ED573002B45113D00C6E7C274 /* PDFKThumbRequest.h */,
+				6A23C3FC7775DA30C7F530CC933C63FC /* PDFKThumbRequest.m */,
+				7FAE0E33377F10A0932DD5777376D0C2 /* PDFKThumbView.h */,
+				14A6AC827F77BDD5641F2AC9B0FDAB93 /* PDFKThumbView.m */,
+				3179C6D0AFD0DF3A041745B1E0A7F052 /* Resources */,
+				24C9B51E58141BACBDE0F33F73BD0203 /* Support Files */,
 			);
 			path = M13PDFKit;
 			sourceTree = "<group>";
 		};
-		915A897F26324F624622181C06380975 /* TTOpenInAppActivity */ = {
+		B4340FCFFC6548DD5E9CE3917DB5B1D9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E288331AF05B6D0D1BE462FCEB30C3F /* TTOpenInAppActivity.h */,
-				D92F19883AD65B6496DFAE33FAF1F0DC /* TTOpenInAppActivity.m */,
-				0A430083B25FAA91B2CA226871EB7A85 /* Resources */,
-				70157BB2D98BE316D923C46331D9FEA2 /* Support Files */,
+				54A63B8A9E4BF1A4003967E6FD9D29CB /* Info.plist */,
+				E9F3811024BA9D7532A70793D220934C /* TTOpenInAppActivity.modulemap */,
+				A12D3DEA510DDE36A9BA257C33289D48 /* TTOpenInAppActivity.xcconfig */,
+				9C550791176320652B113083682B71D2 /* TTOpenInAppActivity-dummy.m */,
+				661B40ED8E7C92EB17999FB353A244C3 /* TTOpenInAppActivity-prefix.pch */,
+				ECB71A0F69851F3925C75F11DECAEA83 /* TTOpenInAppActivity-umbrella.h */,
 			);
-			path = TTOpenInAppActivity;
+			name = "Support Files";
+			path = "../Target Support Files/TTOpenInAppActivity";
 			sourceTree = "<group>";
 		};
-		9762462A52FD25F868D824AB568C8DD7 /* SwiftCSV */ = {
+		B563C6A350751F74437BEBD4B470BA3B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				28EA54629DD349C3C7D171F7A5B01A97 /* CSV.swift */,
-				7476D86BB576779969BDDF0A6106BC4E /* Description.swift */,
-				DFD8568C7FC2FC59053D5562E08D2C11 /* Parser.swift */,
-				7BD9407255AAA2B03FBFB86EAFCB3167 /* ParserHelpers.swift */,
-				AF5055CD7208E7D49781936FEE9CB04C /* String+Lines.swift */,
-				D4D9FDB7498C819FB3C40ABED0B5B360 /* Support Files */,
-			);
-			path = SwiftCSV;
-			sourceTree = "<group>";
-		};
-		A038D790E2C062EED6354E30269C1C0D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				887640FA08F57D533CE17963AFA72172 /* M13PDFKit */,
-				9762462A52FD25F868D824AB568C8DD7 /* SwiftCSV */,
-				915A897F26324F624622181C06380975 /* TTOpenInAppActivity */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B1FF794F4918244A7F9D1774C8986CC2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				EDEDB0C23797465029E87108AB86D9C8 /* Bookmark.png */,
-				E2EFB189C4B09A549BFA7584B7DB751D /* Bookmark.psd */,
-				A0A2315CD2AE808B7FB2A1A9F196DC86 /* Bookmark@2x.png */,
-				D41DBFA3EBBCDA6D66504042366AB84D /* Bookmark@2x.psd */,
-				EB747BDF6E150F35CC9C5F6590E147B6 /* Bookmark@3x.png */,
-				42FAE1BB1B8DE60C68C996ADD2A90473 /* Bookmark@3x.psd */,
-				7D4430C3496DCA93638AFD39A0FA2987 /* Bookmarked.png */,
-				13CB2B0ADA3FA42BB2766393E601B6ED /* Bookmarked.psd */,
-				B3163DF0615805E43986E4BAE80EEA5C /* Bookmarked@2x.png */,
-				A20E3A389A6CB0BD08C24D076F928DF1 /* Bookmarked@2x.psd */,
-				D2C7A386EB08FE52F9325E8BE93767B7 /* Bookmarked@3x.png */,
-				85351094083E66D7D339837329B310C8 /* Bookmarked@3x.psd */,
-				E805AF25143FEFC93DD220D536357077 /* PageList.png */,
-				47167FBA0907D4C556FA529990DDAC26 /* PageList.psd */,
-				CFC81CE03D604A73D91E4FFD55217FF4 /* PageList@2x.png */,
-				45C4A2A2DD556FCDB4BFE5B1D6D9E2E1 /* PageList@2x.psd */,
-				0A5FE18AAC9624907F81C904797100BA /* PageList@3x.png */,
-				AD654D701EE74139CA3E59388A77721E /* PageList@3x.psd */,
-				0D0C78AF6BBBF4D1BBE1BB19D3D5E360 /* Thumbs.png */,
-				6AEFE4E8E5976F0BFE229CAEF6C99E7F /* Thumbs.psd */,
-				24748D91ED7722BF60C2352372277EE2 /* Thumbs@2x.png */,
-				2443F99AC9789DDFB59E408EDDE32AC0 /* Thumbs@2x.psd */,
-				7D3170B9AE3468DC4F8D4D83413F58EB /* Thumbs@3x.png */,
-				51EC33FF8D54F5BE43221028C53CA2FD /* Thumbs@3x.psd */,
+				471D97E9AD5EC65E1DB8B8F55BB3C5F6 /* TTOpenInAppActivity.png */,
+				37F72E952514A9355CB426AA24787AB1 /* TTOpenInAppActivity7.png */,
+				13893318EC867CB39D470D8AA23FF0F5 /* TTOpenInAppActivity7@2x.png */,
+				599488C2724FEE4484871C583DC32BEA /* TTOpenInAppActivity@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		D4D9FDB7498C819FB3C40ABED0B5B360 /* Support Files */ = {
+		B7F48A705BC9DB8587212259E131E070 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0739BBF7FA7B37A1475716DF1FDD45B4 /* Info.plist */,
-				E972CC4BDB3D6370F911B1DCFF61EE6B /* SwiftCSV.modulemap */,
-				55ECC482CE11F4AE7B9A1B998F9D0C4E /* SwiftCSV.xcconfig */,
-				960EC6202C944484072EEC7DC657AE43 /* SwiftCSV-dummy.m */,
-				27EFFDCD67DB8165FBB7B0F5DABB8CB9 /* SwiftCSV-prefix.pch */,
-				6D28900019D8F723C7C093027EBB2673 /* SwiftCSV-umbrella.h */,
+				E39B3DA83E263F689BA0F1A94C5779E5 /* Info.plist */,
+				3AD828EE6B9AFB5D668A63739A3DCBDA /* SwiftCSV.modulemap */,
+				F5211A2BF29B226380FD9BBFC3A4D967 /* SwiftCSV.xcconfig */,
+				8FDD79DAECBCCE2DFBB8DEBABBF06EE3 /* SwiftCSV-dummy.m */,
+				4CA40D28D30CB4F556F0E9037EF92BB8 /* SwiftCSV-prefix.pch */,
+				8706F8E9E2C477B8A6D9EE714AE208B0 /* SwiftCSV-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftCSV";
 			sourceTree = "<group>";
 		};
+		DBAAE3480FAE35C5F0F96D3456DC7D8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0677AEE6BEF0DCB38037886170769AD /* LiquidFloatingActionButton.framework */,
+				C4B613A3BB503CFD5C858CB445BA2CE0 /* M13PDFKit.framework */,
+				A89896D041DC76854100AD69D29AAE79 /* M13PDFKitResources.bundle */,
+				8111746F2CE55F9F771D9EFC60DB037D /* Pods_MokhtaserAlNaseha.framework */,
+				A2F84EEA5BC437B1BD8BF6F785A8D184 /* Pods_MokhtaserAlNasehaTests.framework */,
+				1F0E05901700B5C27C9B8443C1C2925C /* Pods_MokhtaserAlNasehaUITests.framework */,
+				5A94EB06D6341028358C94BBCEC292E8 /* SwiftCSV.framework */,
+				D54469FDFD43131EBD4C9503ED186B4E /* TTOpenInAppActivity.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D5597D2DBCDA02C00C8E3DA323297C /* SwiftCSV */ = {
+			isa = PBXGroup;
+			children = (
+				F51CA69542819ACB821158FFE2404069 /* CSV.swift */,
+				70E87626F3C8E4C4916D111827DCA2A7 /* Description.swift */,
+				6404A69C2B9D65046D349864464E9E35 /* Parser.swift */,
+				25324D9FEA34254B8B478671F7A8C993 /* ParserHelpers.swift */,
+				238F2311B2FDC0AD2F1218D20A2A5C2C /* String+Lines.swift */,
+				B7F48A705BC9DB8587212259E131E070 /* Support Files */,
+			);
+			path = SwiftCSV;
+			sourceTree = "<group>";
+		};
+		E90DC45F05C302CDD33EDB90A190DD79 /* LiquidFloatingActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				93334F432E97F63767358ADD70191327 /* ArrayEx.swift */,
+				04D36ABCAC7DFB35AE57542B8715B672 /* CGPointEx.swift */,
+				F8A036A0F43CF1C7A870B0F49CE51032 /* CGRectEx.swift */,
+				42BA2B3EAFEE0E4E830D7721CBF1D7F9 /* LiquidFloatingActionButton.swift */,
+				B6A98F50748152DEA05BFD1CFA7C358A /* LiquidUtil.swift */,
+				E7F3E2A362B2F54D69E8AE9863F3643B /* LiquittableCircle.swift */,
+				AFF164F12E793831D30E868833324F2F /* SimpleCircleLiquidEngine.swift */,
+				3312CF9E22FB5477188CA79F4A2FABB6 /* UIColorEx.swift */,
+				3E04BDAFC045A6A9FD1D46A14D63342E /* Support Files */,
+			);
+			path = LiquidFloatingActionButton;
+			sourceTree = "<group>";
+		};
+		FA0F68EB54E1F85C3C404D33DB358FAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E90DC45F05C302CDD33EDB90A190DD79 /* LiquidFloatingActionButton */,
+				A0EFE6A681F3FFFA1E787D7984B93FD6 /* M13PDFKit */,
+				E6D5597D2DBCDA02C00C8E3DA323297C /* SwiftCSV */,
+				2857BC21ECC560F6FE1F2F547D8A1D96 /* TTOpenInAppActivity */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DF50F262DA693B39C5EBA6CB931EE9E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E308A2B52135D025273C7F283BEDCA8 /* Pods-MokhtaserAlNaseha-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2504925B94F5579A0AAAA539F71A969B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				535AB5E644A83FBC2BFAD96A3805E854 /* Pods-MokhtaserAlNasehaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260679D455A5673E37DC64A285D035D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E538EF481F898874DF94F0F8CBC5D2C /* LiquidFloatingActionButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E95EB339207FB58A501F64324F7B775 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5FA604981DE7DD8697A0A6D98BF198 /* Pods-MokhtaserAlNaseha-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F61A9FE3ACC9174ABA9C71E08CCA571 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990DC2D109BD55FA176CDABBFC65CFF0 /* SwiftCSV-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,14 +741,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D34242074C485BC2E6ADCD9B8AE1C904 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4426035DB0530CC2824AFF32F3D07470 /* SwiftCSV-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DCB2A238882CAD79EB5671E0F574162E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -671,24 +752,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		254571C1F6FF75A9B0C2270EC1871DD8 /* Pods-MokhtaserAlNaseha */ = {
+		4BCE15B65BE1423E31A139A48360119E /* LiquidFloatingActionButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96188AF6A4B80EA0EE3BC1AEBA06CE00 /* Build configuration list for PBXNativeTarget "Pods-MokhtaserAlNaseha" */;
+			buildConfigurationList = 1EC12321BB0A0C22B6A6BE639A9983F3 /* Build configuration list for PBXNativeTarget "LiquidFloatingActionButton" */;
 			buildPhases = (
-				19D99449D27A152EBD9DAADEE1CAC512 /* Sources */,
-				C9F74A9E83D488E74CCF6D86437357DD /* Frameworks */,
-				0DF50F262DA693B39C5EBA6CB931EE9E /* Headers */,
+				9AC2C18BF553A27C420A865A5E95F2D1 /* Sources */,
+				68F6EC99D6740686C4802F2C69A003BA /* Frameworks */,
+				260679D455A5673E37DC64A285D035D0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B1F2F2F4DCDB735BCCF1BA33796E3DF9 /* PBXTargetDependency */,
-				485E8A0030E419ADCB26982E78657D11 /* PBXTargetDependency */,
-				1D6E6794891FE95365D53BA234DD96D8 /* PBXTargetDependency */,
 			);
-			name = "Pods-MokhtaserAlNaseha";
-			productName = "Pods-MokhtaserAlNaseha";
-			productReference = D1284E073EEAED5792CC2F6059B089B2 /* Pods_MokhtaserAlNaseha.framework */;
+			name = LiquidFloatingActionButton;
+			productName = LiquidFloatingActionButton;
+			productReference = D0677AEE6BEF0DCB38037886170769AD /* LiquidFloatingActionButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5056C707EE63FCBCB465F1E387B9404D /* M13PDFKit-M13PDFKitResources */ = {
@@ -705,7 +783,7 @@
 			);
 			name = "M13PDFKit-M13PDFKitResources";
 			productName = "M13PDFKit-M13PDFKitResources";
-			productReference = B3344CB886F248CC6C16E0C6BB1F6C18 /* M13PDFKitResources.bundle */;
+			productReference = A89896D041DC76854100AD69D29AAE79 /* M13PDFKitResources.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		932C2BBB5BD730E61475947CF8BAC7D4 /* TTOpenInAppActivity */ = {
@@ -723,24 +801,28 @@
 			);
 			name = TTOpenInAppActivity;
 			productName = TTOpenInAppActivity;
-			productReference = 372F216E22DF515A248C748032F6E3A8 /* TTOpenInAppActivity.framework */;
+			productReference = D54469FDFD43131EBD4C9503ED186B4E /* TTOpenInAppActivity.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C54CEEFA247A34ACE73DF758D063B835 /* SwiftCSV */ = {
+		96ADC150CF8E3FE440562233012C97A5 /* Pods-MokhtaserAlNaseha */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8E8B319AD23DE04928B05742EC2BED1 /* Build configuration list for PBXNativeTarget "SwiftCSV" */;
+			buildConfigurationList = 7F9F49E363316241832683795CF66FDE /* Build configuration list for PBXNativeTarget "Pods-MokhtaserAlNaseha" */;
 			buildPhases = (
-				E79805B249BF1984E3AEAC8633E687D1 /* Sources */,
-				57C3423106B85B8DBA4B7C601225F0F4 /* Frameworks */,
-				D34242074C485BC2E6ADCD9B8AE1C904 /* Headers */,
+				17AD1BC819821E2550D2940143BB1BDB /* Sources */,
+				A5D5A9D3E7656F5939F682C3A22F5C5B /* Frameworks */,
+				6E95EB339207FB58A501F64324F7B775 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				532EA297FF4237314C198AC4C4495E80 /* PBXTargetDependency */,
+				A8B3C5A30385D1766FA1DFECE713829F /* PBXTargetDependency */,
+				DAA923A41A4431C0C9BD86715804F821 /* PBXTargetDependency */,
+				EF93327A4490BC633E7FA7C31559444C /* PBXTargetDependency */,
 			);
-			name = SwiftCSV;
-			productName = SwiftCSV;
-			productReference = 248A40FB3BB771BDF5DFE5DB7AE74B1E /* SwiftCSV.framework */;
+			name = "Pods-MokhtaserAlNaseha";
+			productName = "Pods-MokhtaserAlNaseha";
+			productReference = 8111746F2CE55F9F771D9EFC60DB037D /* Pods_MokhtaserAlNaseha.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C89DCB82F5D72DAEC880F5A0DC678E45 /* Pods-MokhtaserAlNasehaTests */ = {
@@ -757,7 +839,7 @@
 			);
 			name = "Pods-MokhtaserAlNasehaTests";
 			productName = "Pods-MokhtaserAlNasehaTests";
-			productReference = F5DED19DFF5689BD010A6EC28759D647 /* Pods_MokhtaserAlNasehaTests.framework */;
+			productReference = A2F84EEA5BC437B1BD8BF6F785A8D184 /* Pods_MokhtaserAlNasehaTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CA3B0F5E48C38D68BC3418D4B2E74C42 /* Pods-MokhtaserAlNasehaUITests */ = {
@@ -774,7 +856,24 @@
 			);
 			name = "Pods-MokhtaserAlNasehaUITests";
 			productName = "Pods-MokhtaserAlNasehaUITests";
-			productReference = D81569C37F8C28C25350C55F68F34822 /* Pods_MokhtaserAlNasehaUITests.framework */;
+			productReference = 1F0E05901700B5C27C9B8443C1C2925C /* Pods_MokhtaserAlNasehaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE720B73013F2790416DFAC40270F13D /* SwiftCSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188D9323171E06931DAB51B06836CA2E /* Build configuration list for PBXNativeTarget "SwiftCSV" */;
+			buildPhases = (
+				33EFBCD25034BFA5C3263AB5CDC5FF00 /* Sources */,
+				FB7FD2891FF7F27B5CBC6F9BF067D556 /* Frameworks */,
+				6F61A9FE3ACC9174ABA9C71E08CCA571 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCSV;
+			productName = SwiftCSV;
+			productReference = 5A94EB06D6341028358C94BBCEC292E8 /* SwiftCSV.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF658A88E8561D9864067744094F7B54 /* M13PDFKit */ = {
@@ -794,7 +893,7 @@
 			);
 			name = M13PDFKit;
 			productName = M13PDFKit;
-			productReference = 45FCF9BB984399F8B98CD72696E58E21 /* M13PDFKit.framework */;
+			productReference = C4B613A3BB503CFD5C858CB445BA2CE0 /* M13PDFKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -814,16 +913,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7AEB67A0C12E052197491C67D585AAD5 /* Products */;
+			productRefGroup = DBAAE3480FAE35C5F0F96D3456DC7D8E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4BCE15B65BE1423E31A139A48360119E /* LiquidFloatingActionButton */,
 				CF658A88E8561D9864067744094F7B54 /* M13PDFKit */,
 				5056C707EE63FCBCB465F1E387B9404D /* M13PDFKit-M13PDFKitResources */,
-				254571C1F6FF75A9B0C2270EC1871DD8 /* Pods-MokhtaserAlNaseha */,
+				96ADC150CF8E3FE440562233012C97A5 /* Pods-MokhtaserAlNaseha */,
 				C89DCB82F5D72DAEC880F5A0DC678E45 /* Pods-MokhtaserAlNasehaTests */,
 				CA3B0F5E48C38D68BC3418D4B2E74C42 /* Pods-MokhtaserAlNasehaUITests */,
-				C54CEEFA247A34ACE73DF758D063B835 /* SwiftCSV */,
+				CE720B73013F2790416DFAC40270F13D /* SwiftCSV */,
 				932C2BBB5BD730E61475947CF8BAC7D4 /* TTOpenInAppActivity */,
 			);
 		};
@@ -883,11 +983,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19D99449D27A152EBD9DAADEE1CAC512 /* Sources */ = {
+		17AD1BC819821E2550D2940143BB1BDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2817103C9F60D7FEEEE1CBC6B7167BDB /* Pods-MokhtaserAlNaseha-dummy.m in Sources */,
+				7CAD1B2021D8C9B90AB394ABE443B9F9 /* Pods-MokhtaserAlNaseha-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -898,11 +998,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33EFBCD25034BFA5C3263AB5CDC5FF00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B0E2E585750C1CD8AEF3AF35197C9D /* CSV.swift in Sources */,
+				44AF201C8D8EC71E526A53A6374F729E /* Description.swift in Sources */,
+				B4B62AAB276BE9373787CD7CED212CD0 /* Parser.swift in Sources */,
+				40569BB764026A6888A4C8107C67C6FB /* ParserHelpers.swift in Sources */,
+				11EF2893A221C240F48045A8ACB5A608 /* String+Lines.swift in Sources */,
+				344C230A1E830B7F48E3E370FFF327F0 /* SwiftCSV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94F57D9BB3A8EBF8D109C5F2164136D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7D458FABE70503BA4E91D1D813EBABBF /* Pods-MokhtaserAlNasehaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC2C18BF553A27C420A865A5E95F2D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9B643DB10A60B76DD942B8753E5F39 /* ArrayEx.swift in Sources */,
+				781472CF709E1FAEAD9E27E7AF3414FC /* CGPointEx.swift in Sources */,
+				4709D9103BF323C4762AF596E964D6E1 /* CGRectEx.swift in Sources */,
+				53E8265FB7D085A1A1285F60C01C6E33 /* LiquidFloatingActionButton-dummy.m in Sources */,
+				CBBC973068730FD303BB838C1F2D6F84 /* LiquidFloatingActionButton.swift in Sources */,
+				8C5BBA7D6C5F8255362357D19AE888FA /* LiquidUtil.swift in Sources */,
+				AD29019A0FBE9EAB8C6AF86CD40D7D00 /* LiquittableCircle.swift in Sources */,
+				CA8CB7E614AFB9A04D5BBC2E87E6DEF5 /* SimpleCircleLiquidEngine.swift in Sources */,
+				9793A354CB8F3964B73A4A16ADEA71C7 /* UIColorEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,19 +1067,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E79805B249BF1984E3AEAC8633E687D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFF2C709D9A8C663A4732816D58C2CBA /* CSV.swift in Sources */,
-				C3E057C91B912297DC046F8FAE322306 /* Description.swift in Sources */,
-				E29CD645BCF7A7BF7D50B0B39820B41A /* Parser.swift in Sources */,
-				60F720B5F18571AE8A1F495FABB0534F /* ParserHelpers.swift in Sources */,
-				554DAC8343E044BE96F47EF488C61F94 /* String+Lines.swift in Sources */,
-				B1B3ED6AD107DA92D00BC616C6FEECDB /* SwiftCSV-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F6C548ABC56216FF0B53BD022411F06B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -962,12 +1078,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D6E6794891FE95365D53BA234DD96D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TTOpenInAppActivity;
-			target = 932C2BBB5BD730E61475947CF8BAC7D4 /* TTOpenInAppActivity */;
-			targetProxy = 94FACDFF3ECCD473DCA86102FADBEF8F /* PBXContainerItemProxy */;
-		};
 		25314A915840D3CFC101FD7E782FC98C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "M13PDFKit-M13PDFKitResources";
@@ -980,24 +1090,70 @@
 			target = 932C2BBB5BD730E61475947CF8BAC7D4 /* TTOpenInAppActivity */;
 			targetProxy = F328EA1C2CE8EA2014DBABDF69ACF8DD /* PBXContainerItemProxy */;
 		};
-		485E8A0030E419ADCB26982E78657D11 /* PBXTargetDependency */ = {
+		532EA297FF4237314C198AC4C4495E80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftCSV;
-			target = C54CEEFA247A34ACE73DF758D063B835 /* SwiftCSV */;
-			targetProxy = CEA2231E67DB966D005727A477737152 /* PBXContainerItemProxy */;
+			name = LiquidFloatingActionButton;
+			target = 4BCE15B65BE1423E31A139A48360119E /* LiquidFloatingActionButton */;
+			targetProxy = 243079F539A01F6BEEDF7D991C64D9D1 /* PBXContainerItemProxy */;
 		};
-		B1F2F2F4DCDB735BCCF1BA33796E3DF9 /* PBXTargetDependency */ = {
+		A8B3C5A30385D1766FA1DFECE713829F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = M13PDFKit;
 			target = CF658A88E8561D9864067744094F7B54 /* M13PDFKit */;
-			targetProxy = E4110AD48F521297871E37687379C3CC /* PBXContainerItemProxy */;
+			targetProxy = 9690F2C9BC57CFFCE896D8199120EFE3 /* PBXContainerItemProxy */;
+		};
+		DAA923A41A4431C0C9BD86715804F821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCSV;
+			target = CE720B73013F2790416DFAC40270F13D /* SwiftCSV */;
+			targetProxy = 0F183CBBC0286829F2DC4122D4599BF8 /* PBXContainerItemProxy */;
+		};
+		EF93327A4490BC633E7FA7C31559444C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTOpenInAppActivity;
+			target = 932C2BBB5BD730E61475947CF8BAC7D4 /* TTOpenInAppActivity */;
+			targetProxy = 2FB90ABB3C241F31AA88AE2CB64C878D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		138E804CB11A2599003C683CDF4E969F /* Release */ = {
+		1A130E3C366DF7C9349A30466FCB0BC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55ECC482CE11F4AE7B9A1B998F9D0C4E /* SwiftCSV.xcconfig */;
+			baseConfigurationReference = 312F9A0B8EF4D532F294F86330E4E8D7 /* Pods-MokhtaserAlNaseha.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MokhtaserAlNaseha/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MokhtaserAlNaseha/Pods-MokhtaserAlNaseha.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MokhtaserAlNaseha;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C50DAA43C960A1FA1C403F5DF570897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5211A2BF29B226380FD9BBFC3A4D967 /* SwiftCSV.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1016,39 +1172,6 @@
 				MODULEMAP_FILE = "Target Support Files/SwiftCSV/SwiftCSV.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = SwiftCSV;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		24913FAE8E4798BB59C7230E5FBDEC30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50755F7AB1E657CB0317E3588DE54818 /* Pods-MokhtaserAlNaseha.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MokhtaserAlNaseha/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MokhtaserAlNaseha/Pods-MokhtaserAlNaseha.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MokhtaserAlNaseha;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1089,6 +1212,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		41FC77F19A202E8E8DDD1F00B004C66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50755F7AB1E657CB0317E3588DE54818 /* Pods-MokhtaserAlNaseha.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MokhtaserAlNaseha/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MokhtaserAlNaseha/Pods-MokhtaserAlNaseha.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MokhtaserAlNaseha;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1132,73 +1288,9 @@
 			};
 			name = Debug;
 		};
-		5F42591EF95F29793B43FB0FEDCF9B63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55ECC482CE11F4AE7B9A1B998F9D0C4E /* SwiftCSV.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftCSV/SwiftCSV-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftCSV/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftCSV/SwiftCSV.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftCSV;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5FB6CF0DAD6034204934863DFA48AE45 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 312F9A0B8EF4D532F294F86330E4E8D7 /* Pods-MokhtaserAlNaseha.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MokhtaserAlNaseha/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MokhtaserAlNaseha/Pods-MokhtaserAlNaseha.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MokhtaserAlNaseha;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		894E00DB26FC462EF10CFE9A10198681 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94317331809E60C5556126B5CB1B43E1 /* TTOpenInAppActivity.xcconfig */;
+			baseConfigurationReference = A12D3DEA510DDE36A9BA257C33289D48 /* TTOpenInAppActivity.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1265,7 +1357,7 @@
 		};
 		AFE4AABB3ABDB1BF8043CFDCB5453A27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6014C96943A1825E8962F449BFFF2158 /* M13PDFKit.xcconfig */;
+			baseConfigurationReference = ACCB46B39A3868CCEA1069BAB64D6222 /* M13PDFKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1294,7 +1386,7 @@
 		};
 		B3480E65ED60EAEE1EC0422AF4A88DB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6014C96943A1825E8962F449BFFF2158 /* M13PDFKit.xcconfig */;
+			baseConfigurationReference = ACCB46B39A3868CCEA1069BAB64D6222 /* M13PDFKit.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/M13PDFKit";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1311,7 +1403,7 @@
 		};
 		BCB8FF4434FC5C541B9457F2FAF9C0FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94317331809E60C5556126B5CB1B43E1 /* TTOpenInAppActivity.xcconfig */;
+			baseConfigurationReference = A12D3DEA510DDE36A9BA257C33289D48 /* TTOpenInAppActivity.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1338,9 +1430,39 @@
 			};
 			name = Debug;
 		};
+		C0BFB55C7AEC7C7FA528BCA84AAED473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5211A2BF29B226380FD9BBFC3A4D967 /* SwiftCSV.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCSV/SwiftCSV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCSV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftCSV/SwiftCSV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftCSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C674067638DF60053F4C9A35D9809C05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6014C96943A1825E8962F449BFFF2158 /* M13PDFKit.xcconfig */;
+			baseConfigurationReference = ACCB46B39A3868CCEA1069BAB64D6222 /* M13PDFKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1402,7 +1524,7 @@
 		};
 		DC41C5608EFDEBCB5F34973673B4E3B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6014C96943A1825E8962F449BFFF2158 /* M13PDFKit.xcconfig */;
+			baseConfigurationReference = ACCB46B39A3868CCEA1069BAB64D6222 /* M13PDFKit.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/M13PDFKit";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1416,6 +1538,36 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		E31108E78351255ACC4E34E6DD52DC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259467BE99A3203A9137071E95009661 /* LiquidFloatingActionButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LiquidFloatingActionButton/LiquidFloatingActionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LiquidFloatingActionButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LiquidFloatingActionButton/LiquidFloatingActionButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LiquidFloatingActionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F235A8672F398B1878AAC810CF938A1F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1483,9 +1635,56 @@
 			};
 			name = Debug;
 		};
+		F9CE954751AE262BA38DCEAFEE1B5D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259467BE99A3203A9137071E95009661 /* LiquidFloatingActionButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LiquidFloatingActionButton/LiquidFloatingActionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LiquidFloatingActionButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LiquidFloatingActionButton/LiquidFloatingActionButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LiquidFloatingActionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		188D9323171E06931DAB51B06836CA2E /* Build configuration list for PBXNativeTarget "SwiftCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BFB55C7AEC7C7FA528BCA84AAED473 /* Debug */,
+				1C50DAA43C960A1FA1C403F5DF570897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EC12321BB0A0C22B6A6BE639A9983F3 /* Build configuration list for PBXNativeTarget "LiquidFloatingActionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31108E78351255ACC4E34E6DD52DC86 /* Debug */,
+				F9CE954751AE262BA38DCEAFEE1B5D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1FDAF3F5A0E59AA43BA8B1D1D9E42E17 /* Build configuration list for PBXNativeTarget "M13PDFKit-M13PDFKitResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1531,11 +1730,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96188AF6A4B80EA0EE3BC1AEBA06CE00 /* Build configuration list for PBXNativeTarget "Pods-MokhtaserAlNaseha" */ = {
+		7F9F49E363316241832683795CF66FDE /* Build configuration list for PBXNativeTarget "Pods-MokhtaserAlNaseha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5FB6CF0DAD6034204934863DFA48AE45 /* Debug */,
-				24913FAE8E4798BB59C7230E5FBDEC30 /* Release */,
+				1A130E3C366DF7C9349A30466FCB0BC6 /* Debug */,
+				41FC77F19A202E8E8DDD1F00B004C66F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1545,15 +1744,6 @@
 			buildConfigurations = (
 				C674067638DF60053F4C9A35D9809C05 /* Debug */,
 				AFE4AABB3ABDB1BF8043CFDCB5453A27 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C8E8B319AD23DE04928B05742EC2BED1 /* Build configuration list for PBXNativeTarget "SwiftCSV" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F42591EF95F29793B43FB0FEDCF9B63 /* Debug */,
-				138E804CB11A2599003C683CDF4E969F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

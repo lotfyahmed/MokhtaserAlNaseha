@@ -8,36 +8,36 @@
 
 import UIKit
 import M13PDFKit
+import LiquidFloatingActionButton
 
-class BookViewController: PDFKBasicPDFViewer {
+class BookViewController: PDFKBasicPDFViewer{
     
-    private var pdfDocument: PDFKDocument?
+    internal var pdfDocument: PDFKDocument?
     private var selectedPage:Int = 1
+    private var favorites:[UInt] = []
+    internal var cells: [LiquidFloatingCell] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "كتاب مختصر النصيحة"
-        guard let pdfPath = NSBundle.mainBundle().pathForResource("Nasyha", ofType:"pdf") else{
-            return
-        }
-        previewBook(pdfPath)
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewDidLoad()
-        //        self.enableSharing = false
-        //        self.enablePrinting = false
-        //        self.enableOpening = false
-        //        self.enableBookmarks = false
-        //        self.enablePreview = false
-        //        self.enableThumbnailSlider = false
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidLoad()
         self.displayPage(UInt(selectedPage))
         self.enableThumbnailSlider = false
+        self.enableSharing = false
+        self.enablePrinting = false
+        self.enableOpening = false
+        self.enableBookmarks = false
+        self.enablePreview = false
+        self.setupActionButton()
     }
+    
     func previewBook(path:String){
         self.pdfDocument = PDFKDocument(contentsOfFile: path, password: nil)
         self.loadDocument(pdfDocument)
@@ -45,6 +45,25 @@ class BookViewController: PDFKBasicPDFViewer {
     
     func selectPageNumber(no:Int){
         selectedPage = no
+        guard let pdfPath = NSBundle.mainBundle().pathForResource("Nasyha", ofType:"pdf") else{
+            return
+        }
+        previewBook(pdfPath)
+    }
+    
+    func addFavoriteAction() {
+        favorites.append(pdfDocument!.currentPage)
+        print ("favorite \(pdfDocument!.currentPage)")
+    }
+    
+    var count = 0
+    func counterAction() {
+        count += 1
+        print(count)
+    }
+    
+    func playSoundForPage(){
+        print ("sound \(pdfDocument!.currentPage)")
     }
 }
 

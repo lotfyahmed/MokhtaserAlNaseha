@@ -6,6 +6,7 @@ target 'MokhtaserAlNaseha' do
 
   pod 'M13PDFKit', '1.0.2'
   pod "SwiftCSV"
+  pod "LiquidFloatingActionButton"
 
   target 'MokhtaserAlNasehaTests' do
     inherit! :search_paths
