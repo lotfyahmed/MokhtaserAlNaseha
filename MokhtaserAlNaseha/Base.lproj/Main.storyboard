@@ -153,6 +153,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="9pv-A4-QxB" kind="show" id="XQt-7G-gDk"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

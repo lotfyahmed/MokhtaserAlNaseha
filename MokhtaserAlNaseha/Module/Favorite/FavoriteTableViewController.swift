@@ -41,4 +41,11 @@ class FavoriteTableViewController: UITableViewController {
         
         return cell
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let bookvewController = segue.destinationViewController as? BookViewController {
+            let item = favorites?.itemes[(tableView.indexPathForSelectedRow?.row)!]
+            bookvewController.selectPageNumber( Int((item?.pageNumber)!))
+        }
+    }
 }
