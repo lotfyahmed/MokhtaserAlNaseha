@@ -21,7 +21,8 @@ class FileManager{
         do {
             let path = NSBundle.mainBundle().pathForResource(IndexConstant.CSVFile, ofType: "csv")
             csv = try CSV(name: path!)
-            return IndexEntity(csv: csv!)
+            self.mainIndex = IndexEntity(csv: csv!)
+            return self.mainIndex!
         } catch {
             // Catch errors or something
             print("CSV Catch errors or something")
@@ -47,7 +48,13 @@ class FileManager{
         if favorites == nil{
             loadFavorites()
         }
-        favorites?.itemes.append(indexItem)
+        guard let selectediIem = mainIndex?.itemes.filter({ (item) -> Bool in
+            item.pageNumber == indexItem.pageNumber
+        }) else{
+            favorites?.itemes.append(indexItem)
+            return
+        }
+        favorites?.itemes.appendContentsOf(selectediIem)
 //        let defaults = NSUserDefaults.standardUserDefaults()
 //        defaults.setObject(favorites, forKey: "favorites")
 //        defaults.synchronize()

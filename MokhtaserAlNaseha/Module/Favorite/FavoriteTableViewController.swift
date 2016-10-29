@@ -37,7 +37,7 @@ class FavoriteTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("FavoriteCell", forIndexPath: indexPath)
         
         let item = favorites?.itemes[indexPath.row]
-        cell.textLabel?.text = "\(item!.title) Page \(item!.pageNumber)"
+        cell.textLabel?.text = item?.description()
         
         return cell
     }

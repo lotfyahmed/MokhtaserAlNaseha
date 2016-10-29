@@ -12,7 +12,6 @@ class IndexViewController: UICollectionViewController {
     
     private let reuseIdentifier = "IndexCell"
     private let addImageIcon = "addImage"
-    private var fileManager:FileManager = FileManager()
     private var indexEntity:IndexEntity!
     
     override func viewDidLoad() {
@@ -20,7 +19,7 @@ class IndexViewController: UICollectionViewController {
         self.title = "الفهرس"
         // Register cell classes
         self.collectionView!.registerNib(UINib(nibName: "IndexCell", bundle: nil), forCellWithReuseIdentifier:reuseIdentifier)
-        self.indexEntity = fileManager.loadIndex()
+        self.indexEntity = FileManager.sharedInstance.loadIndex()
     }
 
     // MARK: UICollectionViewDataSource
