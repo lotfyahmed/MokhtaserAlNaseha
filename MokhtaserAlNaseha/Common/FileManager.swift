@@ -11,6 +11,11 @@ import SwiftCSV
 
 class FileManager{
     
+    static let sharedInstance = FileManager()
+    var favorites:IndexEntity?
+    var mainIndex:IndexEntity?
+    var detailedIndex:IndexEntity?
+    
     func loadIndex()->IndexEntity?{
         let csv:CSV?
         do {
@@ -24,4 +29,27 @@ class FileManager{
         }
     }
     
+    //MARK: -
+    func loadFavorites() -> IndexEntity{
+        if favorites != nil{
+            return favorites!
+        }
+        let defaults = NSUserDefaults.standardUserDefaults()
+        if let favoritesDefaults = defaults.objectForKey("favorites") as? IndexEntity  {
+            favorites = favoritesDefaults
+        }else{
+            favorites =  IndexEntity()
+        }
+        return favorites!
+    }
+    
+    func saveFavoritetem(indexItem:IndexItem){
+        if favorites == nil{
+            loadFavorites()
+        }
+        favorites?.itemes.append(indexItem)
+//        let defaults = NSUserDefaults.standardUserDefaults()
+//        defaults.setObject(favorites, forKey: "favorites")
+//        defaults.synchronize()
+    }
 }

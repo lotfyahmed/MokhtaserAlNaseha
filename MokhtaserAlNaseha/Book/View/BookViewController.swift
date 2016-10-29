@@ -1,25 +1,28 @@
 //
 //  BookViewController.swift
-//  MokhtaserAlNaseha
 //
-//  Created by Ahmed Lotfy on 10/20/16.
-//  Copyright © 2016 Ahmed Lotfy. All rights reserved.
+//
+//  Created by  on 27/10/16.
+//
 //
 
 import UIKit
 import M13PDFKit
 import LiquidFloatingActionButton
 
-class BookViewController: PDFKBasicPDFViewer{
-    
+class BookViewController: PDFKBasicPDFViewer, BookViewInterface{
+    var eventHandler: BookModuleInterface?
     internal var pdfDocument: PDFKDocument?
-    private var selectedPage:Int = 1
-    private var favorites:[UInt] = []
+    var selectedPage:Int = 1
     internal var cells: [LiquidFloatingCell] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "كتاب مختصر النصيحة"
+        self.tabBarController?.tabBar.hidden = true
+        
+        let favoriteItem = UIBarButtonItem(image: UIImage(named: "favorite"), style: .Plain, target: self, action: #selector(BookViewController.addFavoriteAction))
+        self.navigationItem.rightBarButtonItem = favoriteItem
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -29,13 +32,16 @@ class BookViewController: PDFKBasicPDFViewer{
     override func viewDidAppear(animated: Bool) {
         super.viewDidLoad()
         self.displayPage(UInt(selectedPage))
-        self.enableThumbnailSlider = false
-        self.enableSharing = false
-        self.enablePrinting = false
-        self.enableOpening = false
-        self.enableBookmarks = false
-        self.enablePreview = false
-        self.setupActionButton()
+        //self.setupActionButton()
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.tabBarController?.tabBar.hidden = false
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
     
     func previewBook(path:String){
@@ -51,11 +57,11 @@ class BookViewController: PDFKBasicPDFViewer{
         previewBook(pdfPath)
     }
     
-    func addFavoriteAction() {
-        favorites.append(pdfDocument!.currentPage)
-        print ("favorite \(pdfDocument!.currentPage)")
+    func addFavoriteAction(sender:UIButton) {
+        let item = IndexItem(title: "", pageNumber: pdfDocument!.currentPage, imageName: "")
+        FileManager.sharedInstance.saveFavoritetem(item)
     }
-    
+
     var count = 0
     func counterAction() {
         count += 1
@@ -66,4 +72,5 @@ class BookViewController: PDFKBasicPDFViewer{
         print ("sound \(pdfDocument!.currentPage)")
     }
 }
+
 

@@ -44,17 +44,4 @@ extension BookViewController: LiquidFloatingActionButtonDataSource, LiquidFloati
     func cellForIndex(index: Int) -> LiquidFloatingCell {
         return cells[index]
     }
-    
-    func liquidFloatingActionButton(liquidFloatingActionButton: LiquidFloatingActionButton, didSelectItemAtIndex index: Int) {
-        print("did Tapped! \(index)")
-        liquidFloatingActionButton.close()
-        switch index {
-        case 0:
-            self.addFavoriteAction()
-        case 1:
-            self.playSoundForPage()
-        default:break
-        }
-    }
-
 }

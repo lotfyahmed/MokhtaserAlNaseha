@@ -10,6 +10,7 @@ import Foundation
 import SwiftCSV
 
 class IndexEntity {
+    var itemes:[IndexItem] = []
     var titles:[String] = []
     var pageNumbers:[Int] = []
     var imageNames:[String] = [
@@ -35,5 +36,18 @@ class IndexEntity {
             pageNumbers = page.map({Int($0)! - IndexConstant.UnusedPages})
         }
     }
+    
+    init(){
+        titles = []
+        pageNumbers = []
+        imageNames = []
+    }
+    
+}
+
+struct IndexItem {
+    var title:String
+    var pageNumber:UInt
+    var imageName:String
     
 }

@@ -14,3 +14,7 @@ struct IndexConstant {
     static let PageNumber = "Page Number"
     static let UnusedPages = 2
 }
+
+struct ViewControllerIdentifier {
+    static let Book = "BookViewController"
+}
