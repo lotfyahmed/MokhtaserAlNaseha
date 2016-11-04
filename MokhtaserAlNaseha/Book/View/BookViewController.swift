@@ -8,13 +8,11 @@
 
 import UIKit
 import M13PDFKit
-import LiquidFloatingActionButton
 
 class BookViewController: PDFKBasicPDFViewer, BookViewInterface{
     var eventHandler: BookModuleInterface?
     internal var pdfDocument: PDFKDocument?
     var selectedPage:Int = 1
-    internal var cells: [LiquidFloatingCell] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()

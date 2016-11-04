@@ -10,8 +10,6 @@
 		134DB4BB92141EB2B2585D49 /* Pods_MokhtaserAlNaseha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D005F331354B0E1AB970A17F /* Pods_MokhtaserAlNaseha.framework */; };
 		26922E5CA335A5B6151EB5C4 /* Pods_MokhtaserAlNasehaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1714DA5916F539CD8ED32FB /* Pods_MokhtaserAlNasehaUITests.framework */; };
 		379A5EFD19F603064BE42633 /* Pods_MokhtaserAlNasehaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0B86F44EBA2E7539AA4A6A /* Pods_MokhtaserAlNasehaTests.framework */; };
-		E90D71A51DBB41AA004F8E6F /* BookViewController+ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D71A41DBB41AA004F8E6F /* BookViewController+ActionButton.swift */; };
-		E90D71A71DBB430B004F8E6F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D71A61DBB430B004F8E6F /* CustomCell.swift */; };
 		E92E0E3E1DB9FA7E005E1034 /* Nasyha.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E92E0E3D1DB9FA7E005E1034 /* Nasyha.pdf */; };
 		E92E0E401DBA0D7C005E1034 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E0E3F1DBA0D7C005E1034 /* FileManager.swift */; };
 		E92E0E421DBA0E45005E1034 /* General Index.csv in Resources */ = {isa = PBXBuildFile; fileRef = E92E0E411DBA0E45005E1034 /* General Index.csv */; };
@@ -65,8 +63,6 @@
 		8A0B86F44EBA2E7539AA4A6A /* Pods_MokhtaserAlNasehaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNasehaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC6A97E0C69F4CBA1871946 /* Pods-MokhtaserAlNaseha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MokhtaserAlNaseha.release.xcconfig"; path = "Pods/Target Support Files/Pods-MokhtaserAlNaseha/Pods-MokhtaserAlNaseha.release.xcconfig"; sourceTree = "<group>"; };
 		D005F331354B0E1AB970A17F /* Pods_MokhtaserAlNaseha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MokhtaserAlNaseha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E90D71A41DBB41AA004F8E6F /* BookViewController+ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BookViewController+ActionButton.swift"; path = "../../Module/Book/BookViewController+ActionButton.swift"; sourceTree = "<group>"; };
-		E90D71A61DBB430B004F8E6F /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../../Module/Book/CustomCell.swift; sourceTree = "<group>"; };
 		E92E0E3D1DB9FA7E005E1034 /* Nasyha.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Nasyha.pdf; sourceTree = "<group>"; };
 		E92E0E3F1DBA0D7C005E1034 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileManager.swift; path = Common/FileManager.swift; sourceTree = "<group>"; };
 		E92E0E411DBA0E45005E1034 /* General Index.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "General Index.csv"; sourceTree = "<group>"; };
@@ -253,9 +249,7 @@
 		E9A572C21DC24020002DEBA1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E90D71A61DBB430B004F8E6F /* CustomCell.swift */,
 				E9A572C31DC24020002DEBA1 /* BookViewController.swift */,
-				E90D71A41DBB41AA004F8E6F /* BookViewController+ActionButton.swift */,
 				E9A572C41DC24020002DEBA1 /* BookViewInterface.swift */,
 			);
 			path = View;
@@ -619,10 +613,8 @@
 			files = (
 				E9A572C71DC24020002DEBA1 /* BookDataManager.swift in Sources */,
 				E9F0056E1DBA121A003FF978 /* IndexEntity.swift in Sources */,
-				E90D71A71DBB430B004F8E6F /* CustomCell.swift in Sources */,
 				E9A572B51DC23D83002DEBA1 /* Dependence.swift in Sources */,
 				E9A9581E1DB85F21004C66AD /* IndexViewController.swift in Sources */,
-				E90D71A51DBB41AA004F8E6F /* BookViewController+ActionButton.swift in Sources */,
 				E9EDC2A61DBC986900546E4B /* FavoriteTableViewController.swift in Sources */,
 				E9A2ADCB1DB8B5B800CA3A8B /* IndexCell.swift in Sources */,
 				E9A572C81DC24020002DEBA1 /* BookInteractor.swift in Sources */,
