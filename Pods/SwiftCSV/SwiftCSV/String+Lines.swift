@@ -11,8 +11,11 @@ extension String {
         var index = startIndex
         let chars = characters
         while index < endIndex && chars[index] != "\r\n" && chars[index] != "\n" && chars[index] != "\r" {
-            index = index.successor()
+            //By Engineer: Ahmed Lotfy
+            index = self.index(index, offsetBy: 1, limitedBy: self.endIndex)!
+//            index = index.successor()
+            //index = <#T##Collection corresponding to `index`##Collection#>.index(after: index)
         }
-        return substringToIndex(index)
+        return substring(to: index)
     }
 }

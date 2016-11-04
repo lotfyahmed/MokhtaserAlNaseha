@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import MokhtaserAlNaseha
 
 class MokhtaserAlNasehaTests: XCTestCase {
     

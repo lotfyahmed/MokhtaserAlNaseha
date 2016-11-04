@@ -786,7 +786,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D385D13E77FDF6BEB11F050 /* Pods-MokhtaserAlNaseha.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MokhtaserAlNaseha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -801,7 +801,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BDC6A97E0C69F4CBA1871946 /* Pods-MokhtaserAlNaseha.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MokhtaserAlNaseha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

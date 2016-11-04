@@ -84,13 +84,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/LiquidFloatingActionButton/LiquidFloatingActionButton.framework"
   install_framework "$BUILT_PRODUCTS_DIR/M13PDFKit/M13PDFKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftCSV/SwiftCSV.framework"
   install_framework "$BUILT_PRODUCTS_DIR/TTOpenInAppActivity/TTOpenInAppActivity.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/LiquidFloatingActionButton/LiquidFloatingActionButton.framework"
   install_framework "$BUILT_PRODUCTS_DIR/M13PDFKit/M13PDFKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftCSV/SwiftCSV.framework"
   install_framework "$BUILT_PRODUCTS_DIR/TTOpenInAppActivity/TTOpenInAppActivity.framework"

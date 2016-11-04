@@ -1,21 +1,18 @@
 PODS:
-  - LiquidFloatingActionButton (1.2.0)
   - M13PDFKit (1.1.0):
     - TTOpenInAppActivity
   - SwiftCSV (0.3.2)
   - TTOpenInAppActivity (1.0)
 
 DEPENDENCIES:
-  - LiquidFloatingActionButton
   - M13PDFKit
   - SwiftCSV
 
 SPEC CHECKSUMS:
-  LiquidFloatingActionButton: 9c28961915754e08cf596ea6bdd60f9cd949f172
   M13PDFKit: 4417c8a98dd22c0fe1e615f40bdf38848bb3b367
   SwiftCSV: 8b64b738fc54567d229acb17ce6d584e0dd27560
   TTOpenInAppActivity: c2218fe419d03ddd4ffb1f07d52d66e0d213d0d4
 
-PODFILE CHECKSUM: 028f9c107837eacdf7ff0c1ffc6a5bface85af02
+PODFILE CHECKSUM: 1381f2b246b240ffd48e1a8576d095bb35c2ea57
 
 COCOAPODS: 1.1.1
