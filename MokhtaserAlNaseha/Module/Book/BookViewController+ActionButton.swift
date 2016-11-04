@@ -37,11 +37,11 @@ extension BookViewController: LiquidFloatingActionButtonDataSource, LiquidFloati
         self.view.addSubview(bottomRightButton)
     }
     
-    func numberOfCells(liquidFloatingActionButton: LiquidFloatingActionButton) -> Int {
+    func numberOfCells(_ liquidFloatingActionButton: LiquidFloatingActionButton) -> Int {
         return cells.count
     }
     
-    func cellForIndex(index: Int) -> LiquidFloatingCell {
+    func cellForIndex(_ index: Int) -> LiquidFloatingCell {
         return cells[index]
     }
 }

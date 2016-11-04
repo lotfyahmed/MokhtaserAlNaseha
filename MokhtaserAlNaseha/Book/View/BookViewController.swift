@@ -19,45 +19,45 @@ class BookViewController: PDFKBasicPDFViewer, BookViewInterface{
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "كتاب مختصر النصيحة"
-        self.tabBarController?.tabBar.hidden = true
+        self.tabBarController?.tabBar.isHidden = true
         
-        let favoriteItem = UIBarButtonItem(image: UIImage(named: "favorite"), style: .Plain, target: self, action: #selector(BookViewController.addFavoriteAction))
+        let favoriteItem = UIBarButtonItem(image: UIImage(named: "favorite"), style: .plain, target: self, action: #selector(BookViewController.addFavoriteAction))
         self.navigationItem.rightBarButtonItem = favoriteItem
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewDidLoad()
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
         self.displayPage(UInt(selectedPage))
         //self.setupActionButton()
     }
     
-    override func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.tabBarController?.tabBar.hidden = false
+        self.tabBarController?.tabBar.isHidden = false
     }
     
-    override func prefersStatusBarHidden() -> Bool {
+    override var prefersStatusBarHidden : Bool {
         return true
     }
     
-    func previewBook(path:String){
+    func previewBook(_ path:String){
         self.pdfDocument = PDFKDocument(contentsOfFile: path, password: nil)
         self.loadDocument(pdfDocument)
     }
     
-    func selectPageNumber(no:Int){
+    func selectPageNumber(_ no:Int){
         selectedPage = no
-        guard let pdfPath = NSBundle.mainBundle().pathForResource("Nasyha", ofType:"pdf") else{
+        guard let pdfPath = Bundle.main.path(forResource: "Nasyha", ofType:"pdf") else{
             return
         }
         previewBook(pdfPath)
     }
     
-    func addFavoriteAction(sender:UIButton) {
+    func addFavoriteAction(_ sender:UIButton) {
         let item = IndexItem(title: "", pageNumber: pdfDocument!.currentPage, imageName: "")
         FileManager.sharedInstance.saveFavoritetem(item)
     }

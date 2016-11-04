@@ -4,7 +4,7 @@
 target 'MokhtaserAlNaseha' do
   use_frameworks!
 
-  pod 'M13PDFKit', '1.0.2'
+  pod 'M13PDFKit'
   pod "SwiftCSV"
   pod "LiquidFloatingActionButton"
 

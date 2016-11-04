@@ -19,7 +19,7 @@ class FileManager{
     func loadIndex()->IndexEntity?{
         let csv:CSV?
         do {
-            let path = NSBundle.mainBundle().pathForResource(IndexConstant.CSVFile, ofType: "csv")
+            let path = Bundle.main.path(forResource: IndexConstant.CSVFile, ofType: "csv")
             csv = try CSV(name: path!)
             self.mainIndex = IndexEntity(csv: csv!)
             return self.mainIndex!
@@ -35,8 +35,8 @@ class FileManager{
         if favorites != nil{
             return favorites!
         }
-        let defaults = NSUserDefaults.standardUserDefaults()
-        if let favoritesDefaults = defaults.objectForKey("favorites") as? IndexEntity  {
+        let defaults = UserDefaults.standard
+        if let favoritesDefaults = defaults.object(forKey: "favorites") as? IndexEntity  {
             favorites = favoritesDefaults
         }else{
             favorites =  IndexEntity()
@@ -44,7 +44,7 @@ class FileManager{
         return favorites!
     }
     
-    func saveFavoritetem(indexItem:IndexItem){
+    func saveFavoritetem(_ indexItem:IndexItem){
         if favorites == nil{
             loadFavorites()
         }
@@ -54,7 +54,7 @@ class FileManager{
             favorites?.itemes.append(indexItem)
             return
         }
-        favorites?.itemes.appendContentsOf(selectediIem)
+        favorites?.itemes.append(contentsOf: selectediIem)
 //        let defaults = NSUserDefaults.standardUserDefaults()
 //        defaults.setObject(favorites, forKey: "favorites")
 //        defaults.synchronize()

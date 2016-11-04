@@ -10,51 +10,51 @@ import UIKit
 
 class IndexViewController: UICollectionViewController {
     
-    private let reuseIdentifier = "IndexCell"
-    private let addImageIcon = "addImage"
-    private var indexEntity:IndexEntity!
+    fileprivate let reuseIdentifier = "IndexCell"
+    fileprivate let addImageIcon = "addImage"
+    fileprivate var indexEntity:IndexEntity!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "الفهرس"
         // Register cell classes
-        self.collectionView!.registerNib(UINib(nibName: "IndexCell", bundle: nil), forCellWithReuseIdentifier:reuseIdentifier)
+        self.collectionView!.register(UINib(nibName: "IndexCell", bundle: nil), forCellWithReuseIdentifier:reuseIdentifier)
         self.indexEntity = FileManager.sharedInstance.loadIndex()
     }
 
     // MARK: UICollectionViewDataSource
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
     
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return indexEntity.titles.count
     }
     
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! IndexCell
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! IndexCell
         cell.button.tag = indexPath.row
         
         // Configure the cell
         cell.icon.image = UIImage(named:indexEntity.imageNames[indexPath.row])
         cell.textLabel?.text = indexEntity.titles[indexPath.row]
-        cell.button?.addTarget(self, action: #selector(IndexViewController.indexButtonAction(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+        cell.button?.addTarget(self, action: #selector(IndexViewController.indexButtonAction(_:)), for: UIControlEvents.touchUpInside)
         
         return cell
     }
     
     // TODO: Refactor this part using Wireframe and presenter
-    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize{
-        let length = (UIScreen.mainScreen().bounds.width - 20)/3
-        return CGSizeMake(length,length);
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: IndexPath) -> CGSize{
+        let length = (UIScreen.main.bounds.width - 20)/3
+        return CGSize(width: length,height: length);
     }
     
-    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath){
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         
     }
     
     var indexNo = 0
-    func indexButtonAction(sender:UIButton){
+    func indexButtonAction(_ sender:UIButton){
         let row = sender.tag
         print(indexEntity.pageNumbers[row])
         indexNo = indexEntity.pageNumbers[row]
@@ -65,12 +65,12 @@ class IndexViewController: UICollectionViewController {
     
     func bookViewControllerFromStoryboard() -> BookViewController {
         let storyboard = mainStoryboard()
-        let bookViewController: BookViewController = storyboard.instantiateViewControllerWithIdentifier("BookViewController") as! BookViewController
+        let bookViewController: BookViewController = storyboard.instantiateViewController(withIdentifier: "BookViewController") as! BookViewController
         return bookViewController
     }
     
     func mainStoryboard() -> UIStoryboard {
-        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         return storyboard
     }
     
